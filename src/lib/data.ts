@@ -34,13 +34,13 @@ export const school = {
     "Lembaga pendidikan Islam berasrama yang memadukan hafalan Al-Qur'an 30 juz, penguasaan ilmu diniyah, dan kurikulum akademik nasional dalam lingkungan yang tertib, hangat, dan modern.",
   address: "Dusun Secikal, RT/RW 04/01, Kenongomulyo, Nguntoronadi, Magetan, Jawa Timur, 63383.",
   phone: "(021) 8790 1234",
-  whatsapp: "6281234433525",
-  whatsappDisplay: "+62 812-3443-3525",
-  email: "info@pptqnurulhuda.sch.id",
-  admissionEmail: "psb@pptqnurulhuda.sch.id",
+  whatsapp: "6282338832018",
+  whatsappDisplay: "+62 823-3883-2018",
+  email: "pptq.nurulhuda1@gmail.com",
+  admissionEmail: "pptq.nurulhuda1@gmail.com",
   hours: "Senin – Sabtu · 07.30 – 16.00 WIB",
   mapEmbed:
-    "https://www.google.com/maps?q=Cileungsi%20Bogor%20Jawa%20Barat&output=embed",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.748536602933!2d111.46169481180323!3d-7.710109892275624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7997daa53592ff%3A0x2e52d67998e921e3!2sPPTQ%20NURUL%20HUDA%20MAGETAN!5e0!3m2!1sid!2sid!4v1787112514423!5m2!1sid!2sid",
   social: {
     instagram: "https://instagram.com",
     youtube: "https://youtube.com",
