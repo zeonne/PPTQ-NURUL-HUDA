@@ -32,7 +32,7 @@ export const school = {
   tagline: "Mencetak Generasi Qur'ani Berakhlakul Karimah",
   description:
     "Lembaga pendidikan Islam berasrama yang memadukan hafalan Al-Qur'an 30 juz, penguasaan ilmu diniyah, dan kurikulum akademik nasional dalam lingkungan yang tertib, hangat, dan modern.",
-  address: "Jl. Raden Fatah No. 27, Kelurahan Sukamaju, Kec. Cileungsi, Kab. Bogor, Jawa Barat 16820",
+  address: "Dusun Secikal, RT/RW 04/01, Kenongomulyo, Nguntoronadi, Magetan, Jawa Timur, 63383.",
   phone: "(021) 8790 1234",
   whatsapp: "6281234433525",
   whatsappDisplay: "+62 812-3443-3525",
