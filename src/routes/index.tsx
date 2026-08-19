@@ -117,11 +117,11 @@ function HomePage() {
       <section aria-labelledby="agenda" className="container-page py-20">
         <SectionTitle
           eyebrow="Agenda"
-          title="Kegiatan yang akan datang"
-          description="Catat tanggalnya dan bergabung bersama keluarga besar Nurul Huda."
+          title="Agenda Kegiatan Mendatang"
+          description="Catat jadwal kegiatan penting dan ikuti berbagai aktivitas keluarga besar PPTQ Nurul Huda Magetan."
         />
         <h2 id="agenda" className="sr-only">
-          Agenda kegiatan
+          Agenda Pesantren
         </h2>
         <ul className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {events.map((event, index) => (

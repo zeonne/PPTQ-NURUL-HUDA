@@ -423,7 +423,7 @@ export const news: NewsItem[] = [
 
 export const events: EventItem[] = [
   {
-    title: "Open House & Tur Kampus",
+    title: "Open House & Tur Pesantren",
     date: "2026-08-23",
     day: "23",
     month: "Agu",
@@ -431,15 +431,15 @@ export const events: EventItem[] = [
     place: "Aula Utama Pesantren",
   },
   {
-    title: "Pembukaan Gelombang I PSB 2027",
+    title: "Pembukaan Gelombang I PSB 2025/2026",
     date: "2026-09-01",
     day: "01",
     month: "Sep",
-    time: "09.00 WIB",
+    time: "09.00 WIB s/d Selesai",
     place: "Daring & Kantor PSB",
   },
   {
-    title: "Sima'an Akbar 30 Juz",
+    title: "Sima’an Akbar 30 Juz",
     date: "2026-09-14",
     day: "14",
     month: "Sep",
@@ -447,7 +447,7 @@ export const events: EventItem[] = [
     place: "Masjid Pesantren",
   },
   {
-    title: "Musabaqah Internal Antar Asrama",
+    title: "Musabaqah Santri Antar-Asrama ",
     date: "2026-10-05",
     day: "05",
     month: "Okt",
