@@ -84,10 +84,10 @@ function HomePage() {
             align="left"
             eyebrow="Kabar Pesantren"
             title="Berita terbaru"
-            description="Perkembangan kegiatan, prestasi santri, dan pengumuman resmi dari pesantren."
+            description="Informasi kegiatan, prestasi santri, dan perkembangan terbaru PPTQ Nurul Huda Magetan."
           />
           <h2 id="berita" className="sr-only">
-            Berita terbaru
+            Kabar Pesantren
           </h2>
 
           <div className="mt-12 space-y-6">
