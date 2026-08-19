@@ -40,7 +40,7 @@ export function Hero() {
 
           <h1 className="mt-6 font-display text-4xl leading-[1.08] font-semibold text-white text-balance sm:text-5xl lg:text-6xl">
             Pondok Pesantren Tahfidzul Qur'an{" "}
-            <span className="text-gold">Nurul Huda</span>
+            <span className="text-gold">Nurul Huda Magetan</span>
           </h1>
 
           <p className="mt-5 font-display text-lg text-white/90 sm:text-xl">{school.tagline}</p>
@@ -68,7 +68,7 @@ export function Hero() {
             {[
               { label: "Target hafalan", value: "30 Juz" },
               { label: "Rasio halaqah", value: "1 : 12" },
-              { label: "Sejak tahun", value: "1998" },
+              { label: "Sejak tahun", value: "2018" },
             ].map((fact) => (
               <div key={fact.label}>
                 <dt className="text-xs tracking-wide text-white/60 uppercase">{fact.label}</dt>

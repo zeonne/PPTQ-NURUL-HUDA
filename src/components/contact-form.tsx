@@ -29,7 +29,7 @@ export function ContactForm() {
           setSubmitting(false);
           form.reset();
           toast.success("Pesan terkirim", {
-            description: "Panitia kami akan menghubungi Anda pada hari kerja berikutnya.",
+            description: "Kami akan menghubungi Anda pada hari kerja berikutnya.",
           });
         }, 700);
       }}
