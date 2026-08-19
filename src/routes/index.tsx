@@ -66,8 +66,8 @@ function HomePage() {
       <section aria-labelledby="keunggulan" className="container-page py-20">
         <SectionTitle
           eyebrow="Mengapa Nurul Huda"
-          title="Enam alasan wali santri mempercayakan pendidikan anaknya di sini"
-          description="Kami merancang keseharian santri agar hafalan, ilmu, dan akhlak tumbuh bersamaan tanpa mengorbankan capaian akademik."
+          title="Enam Keunggulan PPTQ Nurul Huda"
+          description="Kami memadukan tahfizhul Qur’an, pendidikan diniyah, pembinaan akhlak, dan pendidikan umum dalam keseharian santri yang terarah."
         />
         <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {advantages.map((item, index) => (

@@ -129,7 +129,7 @@ export function Footer() {
           <p>
             © {new Date().getFullYear()} {school.name}. Seluruh hak cipta dilindungi.
           </p>
-          <p>Cileungsi, Kabupaten Bogor · {school.hours}</p>
+          <p>Kenongomulyo, Magetan · {school.hours}</p>
         </div>
       </div>
     </footer>

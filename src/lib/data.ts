@@ -27,7 +27,7 @@ import type {
 } from "@/types";
 
 export const school = {
-  name: "Pondok Pesantren Tahfidzul Qur'an Nurul Huda",
+  name: "Pondok Pesantren Tahfidzul Qur'an Nurul Huda Magetan",
   shortName: "PPTQ Nurul Huda Magetan",
   tagline: "Mencetak Generasi Qur’ani, Berilmu, dan Berakhlakul Karimah",
   description:
@@ -89,8 +89,8 @@ export const navItems: NavItem[] = [
 ];
 
 export const stats = [
-  { label: "Santri Aktif", value: 842, suffix: "+", description: "Putra & putri jenjang SMP–SMA" },
-  { label: "Asatidz & Guru", value: 68, suffix: "", description: "Hafidz, sarjana, dan magister" },
+  { label: "Santri Aktif", value: 150, suffix: "+", description: "Putra & putri jenjang SMP–SMA" },
+  { label: "Asatidz & Guru", value: 68, suffix: "", description: "Hafidz/ah, sarjana, dan magister" },
   { label: "Alumni", value: 2350, suffix: "+", description: "Tersebar di dalam & luar negeri" },
   { label: "Prestasi", value: 137, suffix: "", description: "Tingkat daerah hingga nasional" },
 ];
@@ -100,37 +100,37 @@ export const advantages = [
     icon: "BookOpenText",
     title: "Program Tahfidz Terstruktur",
     description:
-      "Target hafalan bertahap dengan halaqah maksimal 12 santri per musyrif, setoran harian, dan muraja'ah terjadwal hingga 30 juz mutqin.",
+      "Pembelajaran tahfizh dilakukan melalui halaqah, setoran hafalan, murajaah, dan pembinaan bacaan Al-Qur’an secara bertahap sesuai kemampuan santri.",
   },
   {
     icon: "Moon",
-    title: "Pendidikan Diniyah Mendalam",
+    title: "Pendidikan Diniyah",
     description:
-      "Kajian kitab kuning, fiqih, aqidah, hadits, dan sirah dengan metode talaqqi langsung bersama asatidz berpengalaman.",
+      "Santri mendapatkan pembelajaran ilmu agama yang meliputi aqidah, fiqih, hadits, tafsir, sirah, adab, dan ilmu-ilmu keislaman lainnya secara bertahap.",
   },
   {
     icon: "GraduationCap",
-    title: "Keunggulan Akademik",
+    title: "Pendidikan Umum yang Terintegrasi",
     description:
-      "Kurikulum nasional terakreditasi A, kelas persiapan olimpiade, dan bimbingan intensif menuju PTN serta universitas Timur Tengah.",
+      "Santri mengikuti pendidikan umum sesuai jenjang melalui program PKBM dan pendidikan yang terintegrasi dengan pembinaan Al-Qur’an serta pendidikan diniyah.",
   },
   {
     icon: "HeartHandshake",
-    title: "Pembinaan Akhlak",
+    title: "Pembinaan Akhlak dan Kemandirian",
     description:
-      "Pendampingan karakter 24 jam melalui keteladanan, adab harian, dan evaluasi personal setiap santri oleh wali asuh.",
+      "Pembinaan santri berlangsung dalam kehidupan sehari-hari melalui keteladanan, pembiasaan ibadah, adab, kedisiplinan, tanggung jawab, kebersihan, dan kemandirian.",
   },
   {
     icon: "Building2",
-    title: "Fasilitas Modern",
+    title: "Lingkungan Belajar yang Mendukung",
     description:
-      "Masjid, asrama ber-AC, laboratorium komputer, perpustakaan digital, klinik, dan lapangan olahraga dalam satu kawasan asri.",
+      "Santri belajar dan tinggal dalam lingkungan pesantren yang mendukung kegiatan tahfizh, pendidikan diniyah, pendidikan umum, ibadah, olahraga, dan pengembangan diri.",
   },
   {
     icon: "Users",
-    title: "Asatidz Berpengalaman",
+    title: "Pendampingan Santri",
     description:
-      "Dibimbing hafidz bersanad, lulusan Al-Azhar, LIPIA, dan universitas dalam negeri dengan rasio pembinaan yang ideal.",
+      "Santri mendapatkan bimbingan dari para ustadz dan pembina dalam hafalan Al-Qur’an, pendidikan agama, ibadah, adab, kedisiplinan, dan kehidupan sehari-hari.",
   },
 ];
 
