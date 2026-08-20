@@ -187,7 +187,7 @@ function HomePage() {
         <SectionTitle
           eyebrow="Galeri"
           title="Sekilas suasana pesantren"
-          description="Halaqah pagi, ruang belajar, hingga kegiatan santri di kampus terpadu Nurul Huda."
+          description="Halaqah tahfizh, kegiatan belajar, kehidupan asrama, hingga berbagai aktivitas santri di PPTQ Nurul Huda Magetan."
         />
         <h2 id="galeri" className="sr-only">
           Galeri pesantren
@@ -231,7 +231,7 @@ function HomePage() {
             id="mitra"
             className="text-center font-display text-xs font-semibold tracking-[0.18em] text-muted-foreground uppercase"
           >
-            Bermitra dengan
+            JEJARING & RUJUKAN PENDIDIKAN
           </h2>
           <ul className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
             {partners.map((partner, index) => (
@@ -261,11 +261,10 @@ function HomePage() {
             />
             <div className="relative max-w-2xl">
               <h2 id="cta" className="font-display text-3xl font-semibold text-balance sm:text-4xl">
-                Siapkan langkah putra-putri Anda menjadi penghafal Al-Qur'an
+                Siapkan Langkah Putra-Putri Anda Bersama Al-Qur’an
               </h2>
               <p className="mt-4 text-primary-foreground/80">
-                Pendaftaran gelombang pertama dibuka dengan kuota terbatas. Konsultasikan kebutuhan
-                Anda bersama panitia penerimaan santri baru.
+                Penerimaan Santri Baru dibuka secara bertahap. Dapatkan informasi persyaratan, jadwal, dan proses pendaftaran melalui panitia PSB PPTQ Nurul Huda.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Button asChild variant="gold" size="lg">

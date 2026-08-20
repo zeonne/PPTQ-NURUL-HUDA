@@ -487,12 +487,12 @@ export const partners = [
 ];
 
 export const gallery: GalleryItem[] = [
-  { title: "Halaqah Tahfidz Pagi", category: "Kegiatan", image: tahfidzImg, type: "photo" },
+  { title: "Halaqah Tahfizh", category: "Kegiatan", image: tahfidzImg, type: "photo" },
   { title: "Masjid Pesantren", category: "Fasilitas", image: mosqueImg, type: "photo" },
   { title: "Wisuda Tahfidz Angkatan XII", category: "Prestasi", image: news1, type: "photo" },
   { title: "Kamar Asrama Santri", category: "Asrama", image: dormitoryImg, type: "photo" },
-  { title: "Perpustakaan Pesantren", category: "Fasilitas", image: libraryImg, type: "photo" },
-  { title: "Juara Umum MSQ Provinsi", category: "Prestasi", image: news2, type: "photo" },
+  { title: "Prestasi Santri", category: "Prestasi", image: libraryImg, type: "photo" },
+  { title: "Kegiatan Belajar", category: "Kegiatan", image: news2, type: "photo" },
   { title: "Muhadharah Tiga Bahasa", category: "Kegiatan", image: languageImg, type: "photo" },
   { title: "Laboratorium Komputer", category: "Fasilitas", image: computerLabImg, type: "photo" },
   { title: "Gerakan Santri Menanam", category: "Kegiatan", image: news3, type: "photo" },
