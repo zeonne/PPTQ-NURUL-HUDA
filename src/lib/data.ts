@@ -13,6 +13,7 @@ import news1 from "@/assets/news-1.jpg";
 import news2 from "@/assets/news-2.jpg";
 import news3 from "@/assets/news-3.jpg";
 import principalImg from "@/assets/principal.jpg";
+import tapaksuci from "@/assets/tapaksuci.jpg";
 
 import type {
   EventItem,
@@ -459,13 +460,13 @@ export const events: EventItem[] = [
 export const testimonials = [
   {
     quote:
-      "Anak kami tidak hanya hafal 20 juz dalam tiga tahun, tetapi juga terbiasa salat berjamaah dan berbicara santun di rumah. Perubahan adabnya yang paling terasa.",
+      "Anak kami tidak hanya bertambah hafalannya, tetapi juga terbiasa salat berjamaah dan berbicara santun di rumah. Perubahan adabnya adalah hal yang paling kami rasakan.",
     name: "Bapak Hendra Kusuma",
     role: "Wali santri kelas XI",
   },
   {
     quote:
-      "Sistem halaqah kecil membuat setiap santri benar-benar terpantau. Musyrif rutin mengabari perkembangan hafalan dan kondisi belajar setiap pekan.",
+      "Halaqah yang lebih kecil membuat perkembangan setiap santri lebih terpantau. Musyrif juga rutin menyampaikan perkembangan hafalan dan kondisi belajar kepada kami.",
     name: "Ibu Ratna Widiastuti",
     role: "Wali santri kelas VIII",
   },
@@ -492,6 +493,7 @@ export const gallery: GalleryItem[] = [
   { title: "Wisuda Tahfidz Angkatan XII", category: "Prestasi", image: news1, type: "photo" },
   { title: "Kamar Asrama Santri", category: "Asrama", image: dormitoryImg, type: "photo" },
   { title: "Prestasi Santri", category: "Prestasi", image: libraryImg, type: "photo" },
+  { title: "Kegiatan Silat Santri", category: "Kegiatan", image: tapaksuci, type: "photo" },
   { title: "Kegiatan Belajar", category: "Kegiatan", image: news2, type: "photo" },
   { title: "Muhadharah Tiga Bahasa", category: "Kegiatan", image: languageImg, type: "photo" },
   { title: "Laboratorium Komputer", category: "Fasilitas", image: computerLabImg, type: "photo" },
