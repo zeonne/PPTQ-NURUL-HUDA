@@ -21,7 +21,7 @@ export const Route = createFileRoute("/about")({
       { property: "og:title", content: "Profil Pesantren — PPTQ Nurul Huda" },
       {
         property: "og:description",
-        content: "Perjalanan sejak 1998, visi-misi, nilai inti, dan struktur pengelola pesantren.",
+        content: "Perjalanan sejak 2018, visi-misi, nilai inti, dan struktur pengelola pesantren.",
       },
       { property: "og:url", content: "/about" },
     ],

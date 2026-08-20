@@ -22,13 +22,13 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "PPTQ Nurul Huda — Pesantren Tahfidz Qur'an Bogor" },
+      { title: "PPTQ Nurul Huda — Pesantren Tahfidz Qur'an Magetan" },
       {
         name: "description",
         content:
-          "Pondok Pesantren Tahfidzul Qur'an Nurul Huda membina santri hafal 30 juz dengan kurikulum diniyah dan akademik terakreditasi A di Cileungsi, Bogor.",
+          "Pondok Pesantren Tahfidzul Qur'an Nurul Huda membina santri hafal 30 juz dengan kurikulum diniyah dan akademik.",
       },
-      { property: "og:title", content: "PPTQ Nurul Huda — Pesantren Tahfidz Qur'an Bogor" },
+      { property: "og:title", content: "PPTQ Nurul Huda — Pesantren Tahfidz Qur'an Magetan" },
       {
         property: "og:description",
         content:
