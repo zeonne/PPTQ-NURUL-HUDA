@@ -6,7 +6,7 @@ import { programs, school } from "@/lib/data";
 
 const quickLinks = [
   { label: "Tentang Kami", to: "/about" },
-  { label: "Dewan Guru", to: "/teachers" },
+  { label: "Program", to: "/programs" },
   { label: "Fasilitas", to: "/facilities" },
   { label: "Berita", to: "/news" },
   { label: "Galeri", to: "/gallery" },

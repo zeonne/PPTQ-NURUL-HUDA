@@ -45,9 +45,9 @@ function AboutPage() {
             <ArrowRight aria-hidden="true" />
           </Link>
         </Button>
-        <Button asChild variant="hero">
+        {/* <Button asChild variant="hero">
           <Link to="/teachers">Lihat Dewan Guru</Link>
-        </Button>
+        </Button> */}
       </PageHero>
 
       <section aria-labelledby="sejarah" className="container-page py-20">
@@ -222,14 +222,14 @@ function AboutPage() {
             </Reveal>
           ))}
         </ul>
-        <Reveal className="mt-10 text-center">
+        {/* <Reveal className="mt-10 text-center">
           <Button asChild variant="outline">
             <Link to="/teachers">
               Lihat seluruh dewan guru ({teachers.length} asatidz)
               <ArrowRight aria-hidden="true" />
             </Link>
           </Button>
-        </Reveal>
+        </Reveal> */}
       </section>
 
       <section aria-labelledby="jadwal" className="bg-muted/50 py-20">
