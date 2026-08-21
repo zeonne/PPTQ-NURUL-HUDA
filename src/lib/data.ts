@@ -72,7 +72,7 @@ export const navItems: NavItem[] = [
     to: "/about",
     children: [
       { label: "Tentang Kami", to: "/about", description: "Sejarah, visi, misi, dan nilai" },
-      { label: "Dewan Guru", to: "/teachers", description: "Asatidz pengampu dan pembimbing" },
+      // { label: "Dewan Guru", to: "/teachers", description: "Asatidz pengampu dan pembimbing" },
       { label: "Fasilitas", to: "/facilities", description: "Sarana belajar dan asrama" },
     ],
   },
