@@ -35,8 +35,8 @@ function AboutPage() {
     <PageTransition>
       <PageHero
         eyebrow="Profil"
-        title="Tumbuh dari majelis kecil menjadi pesantren tahfidz terpadu"
-        description="Sejak 1998 Nurul Huda konsisten membina santri penghafal Al-Qur'an yang berakhlak, mandiri, dan siap melanjutkan pendidikan tinggi di dalam maupun luar negeri."
+        title="Berawal dari Dakwah, Tumbuh Menjadi Pendidikan Qur’ani"
+        description="Sejak 1935, dakwah dan pendidikan Islam telah menjadi bagian dari perjalanan masyarakat Kenongomulyo. Dari tradisi mengaji dan lembaga pendidikan yang terus berkembang, lahirlah Yayasan Islam Muhyiddin dan pada 2018 berdirilah PPTQ Nurul Huda Magetan di atas tanah wakaf untuk menghadirkan pendidikan berbasis Al-Qur’an."
         image={images.campus}
       >
         <Button asChild variant="gold">
@@ -58,23 +58,17 @@ function AboutPage() {
               Sejarah
             </p>
             <h2 id="sejarah" className="mt-3 text-3xl font-semibold text-balance sm:text-4xl">
-              Bermula dari dua belas santri di serambi masjid
+              Berawal dari kepedulian, tumbuh bersama Al-Qur’an
             </h2>
             <div className="mt-5 space-y-4 text-sm leading-relaxed text-muted-foreground">
               <p>
-                Nurul Huda lahir pada 1998 ketika KH. Abdul Aziz Rahman membuka majelis tahfidz bagi
-                dua belas anak di serambi masjid kampung. Kegiatan sederhana itu tumbuh cepat karena
-                wali santri melihat perubahan nyata pada hafalan dan adab anak-anak mereka.
+                Pada 2018, Yayasan Islam Muhyiddin mendirikan PPTQ Nurul Huda Magetan di atas tanah wakaf sebagai ikhtiar menghadirkan pendidikan berbasis Al-Qur’an bagi masyarakat.
               </p>
               <p>
-                Asrama pertama berdiri pada 2003, disusul pembukaan jenjang SMP pada 2009 dan SMA
-                pada 2014. Perpaduan hafalan Al-Qur'an, kajian kitab, serta kurikulum nasional
-                menjadi ciri khas yang dipertahankan hingga kini.
+                Pesantren ini lahir dari kebutuhan akan pendidikan yang memadukan tahfizh Al-Qur’an, pemahaman agama yang benar, pembinaan akhlak, dan pendidikan yang berkualitas.
               </p>
               <p>
-                Hari ini pesantren mengelola kampus terpadu di Cileungsi dengan 842 santri aktif, 68
-                asatidz, dan lebih dari 2.350 alumni yang tersebar di berbagai perguruan tinggi serta
-                lembaga dakwah.
+                Sejak berdiri, PPTQ Nurul Huda terus berkembang dengan komitmen membentuk generasi Qur’ani yang berilmu, berakhlak, dan beramal.
               </p>
             </div>
           </Reveal>
@@ -180,23 +174,22 @@ function AboutPage() {
             </h2>
             <div className="mt-5 space-y-4 text-sm leading-relaxed text-primary-foreground/80">
               <p>
-                Assalamu'alaikum warahmatullahi wabarakatuh. Segala puji bagi Allah yang menjadikan
-                Al-Qur'an sebagai cahaya bagi hati yang bersungguh-sungguh menjaganya.
+                Assalāmu‘alaikum warahmatullāhi wabarakātuh..
+
+                Alhamdulillāh, segala puji bagi Allah سبحانه وتعالى yang telah memberikan nikmat iman, Islam, dan Al-Qur’an kepada kita.
               </p>
               <p>
-                Di Nurul Huda kami meyakini hafalan tanpa adab akan kehilangan keberkahannya. Karena
-                itu setiap santri didampingi wali asuh yang memantau hafalan, ibadah, dan pergaulan
-                hariannya secara personal.
-              </p>
+                PPTQ Nurul Huda Magetan hadir sebagai ikhtiar untuk membentuk generasi Qur’ani yang tidak hanya kuat dalam hafalan, tetapi juga berilmu, berakhlak, dan beramal sesuai tuntunan Islam.
               <p>
-                Kami mengundang para orang tua untuk bermitra dalam mendidik. Semoga Allah menjadikan
-                putra-putri kita ahlul Qur'an yang bermanfaat bagi umat.
+                Kami meyakini pendidikan Al-Qur’an harus berjalan bersama aqidah, ilmu syar’i, adab, kedisiplinan, dan keteladanan. Karena itu, seluruh proses pendidikan diarahkan untuk membentuk santri yang Qur’ani, sederhana, dan disiplin, serta siap berdakwah dan berkhidmah kepada masyarakat.
+
+                Wassalāmu‘alaikum warahmatullāhi wabarakātuh..
               </p>
             </div>
             <p className="mt-6 font-display text-base font-semibold text-gold">
-              KH. Abdul Aziz Rahman, Lc., M.A.
+              Imron Muzakki, Lc.
             </p>
-            <p className="text-xs text-primary-foreground/60">Pengasuh Pesantren</p>
+            <p className="text-xs text-primary-foreground/60">Mudir PPTQ Nurul Huda Magetan</p>
           </Reveal>
         </div>
       </section>
