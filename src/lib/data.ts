@@ -30,7 +30,7 @@ import type {
 export const school = {
   name: "Pondok Pesantren Tahfidzul Qur'an Nurul Huda Magetan",
   shortName: "PPTQ Nurul Huda Magetan",
-  tagline: "Mencetak Generasi Qur’ani, Berilmu, dan Berakhlakul Karimah",
+  tagline: "Mencetak generasi Qur’ani yang berilmu, berakhlak, dan beramal sesuai manhaj Ahlus Sunnah wal Jama’ah.",
   description:
     "Lembaga pendidikan Islam berasrama yang memadukan tahfizhul Qur’an, pendidikan diniyah, dan pendidikan umum dalam lingkungan yang tertib, sederhana, dan berorientasi pada pembentukan karakter.",
   address: "Dusun Secikal, RT/RW 04/01, Kenongomulyo, Nguntoronadi, Magetan, Jawa Timur, 63383.",
@@ -534,23 +534,28 @@ export const coreValues = [
 ];
 
 export const missions = [
-  "Menyelenggarakan program tahfidz 30 juz yang terstruktur, terukur, dan berkualitas sanad.",
-  "Menanamkan akhlakul karimah melalui keteladanan dan pembinaan 24 jam.",
-  "Memadukan ilmu diniyah dan kurikulum nasional secara seimbang.",
-  "Membangun lingkungan berbahasa Arab dan Inggris yang aktif.",
-  "Mengembangkan potensi kepemimpinan dan kemandirian santri.",
-  "Menjalin kemitraan dengan lembaga pendidikan dalam dan luar negeri.",
+  "Menyelenggarakan pendidikan tahfizh secara terarah, disiplin, dan berkelanjutan dengan target hafalan 30 juz.",
+  "Menanamkan aqidah yang lurus dan membekali santri dengan ilmu syar’i.",
+  "Membekali santri dengan ilmu umum agar mampu berperan aktif di masyarakat.",
+  "Menumbuhkan karakter ikhlas, sederhana, disiplin, serta pembiasaan ibadah dan adab.",
+  "Mengembangkan kemampuan bahasa Arab dan Inggris sebagai sarana memahami dan menyebarkan ilmu.",
+  "Menumbuhkan semangat dakwah dan khidmah di tengah masyarakat.",
+  "Membangun lingkungan belajar yang kondusif, terarah, dan berlandaskan nilai-nilai Islam.",
 ];
 
 export const orgStructure = [
-  { role: "Pengasuh Pesantren", name: "KH. Abdul Aziz Rahman, Lc., M.A." },
-  { role: "Wakil Pengasuh", name: "KH. Sulaiman Yusuf, M.Pd.I." },
-  { role: "Kepala Bidang Akademik", name: "Dr. Siti Marwah, M.Si." },
-  { role: "Kepala Program Tahfidz", name: "Ust. Faisal Hakim, S.Pd.I., Al-Hafizh" },
-  { role: "Koordinator Diniyah", name: "Ust. Ahmad Zulfikar, Lc." },
-  { role: "Kepala Asrama Putra", name: "Ust. Bagas Setiawan, S.Pd." },
-  { role: "Kepala Asrama Putri", name: "Ustadzah Nur Aisyah, M.Pd., Al-Hafizhah" },
-  { role: "Kepala Tata Usaha", name: "Bapak Imam Santoso, S.E." },
+  { role: "Kepala Yayasan", name: "KY. Slamet Abu Qomar" },
+  { role: "Mudir dan Pengasuh Pesantren", name: "Ust. Imron Muzakki, Lc." },
+  { role: "Pengawas", name: "Ka Drs. Moh. Arifin" },
+  { role: "Koordinator Sekretariat & Penjaminan Mutu", name: "Ust. Tristan Ammar Tsaqib" },
+  { role: "Koordinator Pendidikan", name: "Usth. Khoridatul Fitriah, Lc." },
+  { role: "Koordinator Tahfizh", name: "Usth. Fiiki Qomariatul Jannah Al-Hafidzah" },
+  { role: "Koordinator Pembinaan Santri Putra", name: "Ust. Fahmi Rakhmatullah" },
+  { role: "Koordinator Pembinaan Santri Putri", name: "Usth. Aimatus Salma" },
+  { role: "Keuangan & SPP", name: "Usth. Muttaqiya Zulfa" },
+  { role: "Sarana Prasarana", name: "Usth. Muttaqiya Zulfa" },
+  { role: "Keuangan & SPP", name: "Ust. Abu Fadhil" },
+  { role: "Humas, Dakwah & Media", name: "Ust. Mu'awan Haqiqy, Lc." },
 ];
 
 export const admissionSteps = [
@@ -619,11 +624,18 @@ export const faqs: Faq[] = [
 
 export const dailySchedule = [
   { time: "03.30", activity: "Qiyamul lail dan persiapan Subuh" },
-  { time: "04.30", activity: "Salat Subuh berjamaah dan ziyadah hafalan" },
-  { time: "07.00", activity: "Kegiatan belajar mengajar akademik" },
-  { time: "12.00", activity: "Salat Zuhur, makan siang, istirahat" },
-  { time: "15.30", activity: "Salat Ashar dan muraja'ah halaqah" },
-  { time: "18.00", activity: "Salat Maghrib, kajian diniyah, dan Isya" },
-  { time: "20.00", activity: "Belajar mandiri terbimbing" },
-  { time: "21.30", activity: "Istirahat malam" },
+  { time: "04.30", activity: "Shalat Subuh, Zikir Pagi, dan Halaqoh 1 (Murajaah Hafalan Lama)" },
+  { time: "06.30", activity: "Piket Kebersihan, Sarapan, dan Mandi" },
+  { time: "08.00", activity: "Halaqah 2 (Murajaah Hafalan Terbaru)" },
+  { time: "09.00", activity: "Pembelajaran Diniyah/Umum" },
+  { time: "11.10", activity: "Qailullah (Tidur Siang)" },
+  { time: "11.30", activity: "Shalat Dzuhur, Makan siang" },
+  { time: "13.10", activity: "Pembelajaran Diniyah/Umum" },
+  { time: "14.00", activity: "Istirahat, Shalat Ashar, Zikir Sore, dan Mandi" },
+  { time: "17.30", activity: "Shalat Maghrib dan Kajian/Tilawah/Hafalan Matan/Hadits" },
+  { time: "18:20", activity: "Makan Malam" },
+  { time: "18.45", activity: "Shalat Isya'" },
+  { time: "19.30", activity: "Belajar Mufrodat Arab/Inggris" },
+  { time: "20.00", activity: "Tilawah Mandiri/Belajar Malam" },
+  { time: "20.45", activity: "Persiapan Tidur dan Wajib Tidur" },
 ];

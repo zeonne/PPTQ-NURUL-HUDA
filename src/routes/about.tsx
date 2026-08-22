@@ -99,8 +99,7 @@ function AboutPage() {
                 Visi
               </h2>
               <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-                Menjadi pesantren tahfidz rujukan yang melahirkan generasi Qur'ani berakhlakul
-                karimah, unggul dalam ilmu, dan bermanfaat bagi masyarakat.
+                Membentuk santri yang hafal Al-Qur’an, memahami ilmu syar’i dengan benar, berakhlak mulia, serta siap berkhidmah dan berdakwah dengan ilmu dan amal yang lurus.
               </p>
               <p className="mt-6 rounded-2xl bg-primary-soft p-4 font-display text-sm font-medium text-primary">
                 “{school.tagline}”
@@ -183,7 +182,7 @@ function AboutPage() {
               </p>
               <p>
                 Kami meyakini pendidikan Al-Qur’an harus berjalan bersama aqidah, ilmu syar’i, adab, kedisiplinan, dan keteladanan. Karena itu, seluruh proses pendidikan diarahkan untuk membentuk santri yang Qur’ani, sederhana, dan disiplin, serta siap berdakwah dan berkhidmah kepada masyarakat.
-                
+
                 Wassalāmu‘alaikum warahmatullāhi wabarakātuh..             
               </p>
             </div>
@@ -231,7 +230,7 @@ function AboutPage() {
           <SectionTitle
             eyebrow="Keseharian"
             title="Jadwal harian santri"
-            description="Ritme harian yang tertib menjadi kunci konsistensi hafalan dan ibadah."
+            description="Rutinitas harian yang membentuk hafalan, ibadah, ilmu, dan kemandirian."
           />
           <h2 id="jadwal" className="sr-only">
             Jadwal harian santri
@@ -249,7 +248,7 @@ function AboutPage() {
         </div>
       </section>
 
-      <section aria-labelledby="linimasa" className="container-page py-20">
+      {/* <section aria-labelledby="linimasa" className="container-page py-20">
         <SectionTitle
           eyebrow="Linimasa"
           title="Perjalanan pesantren"
@@ -261,7 +260,7 @@ function AboutPage() {
         <div className="mt-14">
           <Timeline entries={timeline} />
         </div>
-      </section>
+      </section> */}
     </PageTransition>
   );
 }
