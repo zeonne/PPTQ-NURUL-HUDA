@@ -180,10 +180,11 @@ function AboutPage() {
               </p>
               <p>
                 PPTQ Nurul Huda Magetan hadir sebagai ikhtiar untuk membentuk generasi Qur’ani yang tidak hanya kuat dalam hafalan, tetapi juga berilmu, berakhlak, dan beramal sesuai tuntunan Islam.
+              </p>
               <p>
                 Kami meyakini pendidikan Al-Qur’an harus berjalan bersama aqidah, ilmu syar’i, adab, kedisiplinan, dan keteladanan. Karena itu, seluruh proses pendidikan diarahkan untuk membentuk santri yang Qur’ani, sederhana, dan disiplin, serta siap berdakwah dan berkhidmah kepada masyarakat.
-
-                Wassalāmu‘alaikum warahmatullāhi wabarakātuh..
+                
+                Wassalāmu‘alaikum warahmatullāhi wabarakātuh..             
               </p>
             </div>
             <p className="mt-6 font-display text-base font-semibold text-gold">
