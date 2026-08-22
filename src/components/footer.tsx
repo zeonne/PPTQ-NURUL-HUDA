@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Facebook, Instagram, Mail, MapPin, Phone, Youtube } from "lucide-react";
+import { Facebook, Instagram, Mail, MapPin, Phone, Youtube, Tiktok } from "lucide-react";
 
 import { Logo } from "@/components/logo";
 import { programs, school } from "@/lib/data";
@@ -55,6 +55,17 @@ export function Footer() {
                 className="grid size-11 place-items-center rounded-2xl border border-white/15 transition-colors hover:border-gold hover:text-gold"
               >
                 <Facebook className="size-5" aria-hidden="true" />
+              </a>
+            </li>
+            <li>
+              <a
+                href={school.social.tiktok}
+                aria-label="Tiktok PPTQ Nurul Huda"
+                target="_blank"
+                rel="noreferrer"
+                className="grid size-11 place-items-center rounded-2xl border border-white/15 transition-colors hover:border-gold hover:text-gold"
+              >
+                <Tiktok className="size-5" aria-hidden="true" />
               </a>
             </li>
           </ul>

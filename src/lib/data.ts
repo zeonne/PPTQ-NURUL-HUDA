@@ -549,13 +549,13 @@ export const orgStructure = [
   { role: "Pengawas", name: "Ka Drs. Moh. Arifin" },
   { role: "Koordinator Sekretariat & Penjaminan Mutu", name: "Ust. Tristan Ammar Tsaqib" },
   { role: "Koordinator Pendidikan", name: "Usth. Khoridatul Fitriah, Lc." },
-  { role: "Koordinator Tahfizh", name: "Usth. Fiiki Qomariatul Jannah Al-Hafidzah" },
+  { role: "Koordinator Tahfizh", name: "Usth. Fiiki Qomariyatul Jannah Al-Hafidzah" },
   { role: "Koordinator Pembinaan Santri Putra", name: "Ust. Fahmi Rakhmatullah" },
   { role: "Koordinator Pembinaan Santri Putri", name: "Usth. Aimatus Salma" },
   { role: "Keuangan & SPP", name: "Usth. Muttaqiya Zulfa" },
-  { role: "Sarana Prasarana", name: "Usth. Muttaqiya Zulfa" },
-  { role: "Keuangan & SPP", name: "Ust. Abu Fadhil" },
+  { role: "Sarana Prasarana", name: "Ust. Abu Fadhil" },
   { role: "Humas, Dakwah & Media", name: "Ust. Mu'awan Haqiqy, Lc." },
+  { role: "", name: "" },
 ];
 
 export const admissionSteps = [
@@ -637,5 +637,6 @@ export const dailySchedule = [
   { time: "18.45", activity: "Shalat Isya'" },
   { time: "19.30", activity: "Belajar Mufrodat Arab/Inggris" },
   { time: "20.00", activity: "Tilawah Mandiri/Belajar Malam" },
-  { time: "20.45", activity: "Persiapan Tidur dan Wajib Tidur" },
+  { time: "20.45", activity: "Persiapan Tidur" },
+  { time: "21.30", activity: "Wajib Tidur" },
 ];
