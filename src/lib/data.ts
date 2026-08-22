@@ -525,12 +525,12 @@ export const timeline: TimelineEntry[] = [
 ];
 
 export const coreValues = [
-  { icon: "BookOpenText", title: "Qur'ani", description: "Al-Qur'an menjadi rujukan utama seluruh aktivitas dan keputusan pesantren." },
-  { icon: "Sparkles", title: "Ikhlas", description: "Belajar dan mengabdi dengan niat lurus semata mengharap ridha Allah." },
-  { icon: "ShieldCheck", title: "Amanah", description: "Menjaga kepercayaan wali santri melalui tata kelola yang jujur dan transparan." },
-  { icon: "Users", title: "Ukhuwah", description: "Membangun persaudaraan lintas latar belakang dalam satu keluarga besar." },
-  { icon: "Compass", title: "Istiqamah", description: "Konsisten pada proses harian yang tertib, terukur, dan berkelanjutan." },
-  { icon: "Lightbulb", title: "Berkemajuan", description: "Terbuka pada ilmu dan teknologi yang bermanfaat bagi umat." },
+  { icon: "BookOpenText", title: "Qur'ani", description: "Menjadikan Al-Qur’an sebagai pedoman dalam hafalan, ibadah, akhlak, dan kehidupan sehari-hari." },
+  { icon: "Sparkles", title: "Berakhlak", description: "Membiasakan adab Islami dalam hubungan dengan Allah, guru, orang tua, sesama, dan lingkungan." },
+  { icon: "ShieldCheck", title: "Ikhlas", description: "Belajar, menghafal, beribadah, dan berkhidmah semata-mata mengharap ridha Allah." },
+  { icon: "Users", title: "Disiplin", description: "Menjalani waktu, ibadah, hafalan, belajar, dan tanggung jawab dengan tertib dan konsisten." },
+  { icon: "Compass", title: "Mandiri", description: "Membentuk santri yang mampu mengelola diri, menyelesaikan tanggung jawab, dan mengambil peran positif." },
+  { icon: "Lightbulb", title: "Berkemajuan", description: "Membekali santri dengan ilmu, bahasa, wawasan, dan keterampilan agar siap melanjutkan pendidikan dan berkontribusi di masyarakat." },
 ];
 
 export const missions = [
@@ -631,7 +631,9 @@ export const dailySchedule = [
   { time: "11.10", activity: "Qailullah (Tidur Siang)" },
   { time: "11.30", activity: "Shalat Dzuhur, Makan siang" },
   { time: "13.10", activity: "Pembelajaran Diniyah/Umum" },
-  { time: "14.00", activity: "Istirahat, Shalat Ashar, Zikir Sore, dan Mandi" },
+  { time: "14.00", activity: "Istirahat" },
+  { time: "15.00", activity: "Shalat Ashar, Zikir Sore, Piket Kebersihan dan Mandi" },
+  { time: "16.30", activity: "Halaqoh 3 (Ziyadah Hafalan Baru)" },
   { time: "17.30", activity: "Shalat Maghrib dan Kajian/Tilawah/Hafalan Matan/Hadits" },
   { time: "18:20", activity: "Makan Malam" },
   { time: "18.45", activity: "Shalat Isya'" },

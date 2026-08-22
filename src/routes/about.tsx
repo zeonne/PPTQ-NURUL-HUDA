@@ -174,7 +174,8 @@ function AboutPage() {
             <div className="mt-5 space-y-4 text-sm leading-relaxed text-primary-foreground/80">
               <p>
                 Assalāmu‘alaikum warahmatullāhi wabarakātuh..
-
+              </p>
+              <p>
                 Alhamdulillāh, segala puji bagi Allah سبحانه وتعالى yang telah memberikan nikmat iman, Islam, dan Al-Qur’an kepada kita.
               </p>
               <p>
@@ -182,7 +183,8 @@ function AboutPage() {
               </p>
               <p>
                 Kami meyakini pendidikan Al-Qur’an harus berjalan bersama aqidah, ilmu syar’i, adab, kedisiplinan, dan keteladanan. Karena itu, seluruh proses pendidikan diarahkan untuk membentuk santri yang Qur’ani, sederhana, dan disiplin, serta siap berdakwah dan berkhidmah kepada masyarakat.
-
+              </p>
+              <p>
                 Wassalāmu‘alaikum warahmatullāhi wabarakātuh..             
               </p>
             </div>

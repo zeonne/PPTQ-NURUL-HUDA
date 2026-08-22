@@ -28,7 +28,7 @@ export function Logo({
             variant === "light" ? "text-white" : "text-primary",
           )}
         >
-          PPTQ Nurul Huda
+          PPTQ Nurul Huda Magetan
         </span>
         <span
           className={cn(
