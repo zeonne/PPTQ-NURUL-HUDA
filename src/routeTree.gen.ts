@@ -17,7 +17,7 @@ import { Route as FacilitiesRouteImport } from './routes/facilities'
 import { Route as GalleryRouteImport } from './routes/gallery'
 import { Route as NewsRouteImport } from './routes/news'
 import { Route as ProgramsRouteImport } from './routes/programs'
-import { Route as TeachersRouteImport } from './routes/teachers'
+// import { Route as TeachersRouteImport } from './routes/teachers'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
