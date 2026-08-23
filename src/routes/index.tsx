@@ -26,7 +26,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Pondok Pesantren Tahfidzul Qur'an Nurul Huda membina santri hafal 30 juz dengan kurikulum diniyah dan akademik.",
+          "Pondok Pesantren Tahfizhul Qur'an Nurul Huda membina santri hafal 30 juz dengan kurikulum diniyah dan akademik.",
       },
       { property: "og:title", content: "PPTQ Nurul Huda — Pesantren Tahfidz Qur'an Magetan" },
       {

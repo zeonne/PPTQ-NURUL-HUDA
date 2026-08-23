@@ -28,7 +28,7 @@ import type {
 } from "@/types";
 
 export const school = {
-  name: "Pondok Pesantren Tahfidzul Qur'an Nurul Huda Magetan",
+  name: "Pondok Pesantren Tahfizhul Qur'an Nurul Huda Magetan",
   shortName: "PPTQ Nurul Huda Magetan",
   tagline: "Mencetak generasi Qur’ani yang berilmu, berakhlak, dan beramal sesuai manhaj Ahlus Sunnah wal Jama’ah.",
   description:
@@ -90,10 +90,10 @@ export const navItems: NavItem[] = [
 ];
 
 export const stats = [
-  { label: "Santri Aktif", value: 150, suffix: "+", description: "Putra & putri jenjang SMP–SMA" },
-  { label: "Asatidz & Guru", value: 68, suffix: "", description: "Hafidz/ah, sarjana, dan magister" },
-  { label: "Alumni", value: 2350, suffix: "+", description: "Tersebar di dalam & luar negeri" },
-  { label: "Prestasi", value: 137, suffix: "", description: "Tingkat daerah hingga nasional" },
+  { label: "Santri Aktif", value: 188, suffix: "+", description: "Putra & putri jenjang SMP–SMA" },
+  { label: "Asatidz & Guru", value: 34, suffix: "", description: "Hafidz/ah, sarjana diniyah & umum" },
+  { label: "Alumni", value: 39, suffix: "", description: "Lulusan 3 angkatan" },
+  { label: "Santri Hafidz/ah", value: 50, suffix: "", description: "Lulus 30juz sekali duduk" },
 ];
 
 export const advantages = [

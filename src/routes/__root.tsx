@@ -81,7 +81,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { name: "author", content: "Pondok Pesantren Tahfidzul Qur'an Nurul Huda" },
+      { name: "author", content: "Pondok Pesantren Tahfizhul Qur'an Nurul Huda" },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "PPTQ Nurul Huda Magetan" },
       { property: "og:locale", content: "id_ID" },
@@ -104,7 +104,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "School",
-          name: "Pondok Pesantren Tahfidzul Qur'an Nurul Huda",
+          name: "Pondok Pesantren Tahfizhul Qur'an Nurul Huda",
           slogan: "Mencetak Generasi Qur'ani Berakhlakul Karimah",
           address: {
             "@type": "PostalAddress",

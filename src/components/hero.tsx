@@ -39,7 +39,7 @@ export function Hero() {
           </p>
 
           <h1 className="mt-6 font-display text-4xl leading-[1.08] font-semibold text-white text-balance sm:text-5xl lg:text-6xl">
-            Pondok Pesantren Tahfidzul Qur'an{" "}
+            Pondok Pesantren Tahfizhul Qur'an{" "}
             <span className="text-gold">Nurul Huda Magetan</span>
           </h1>
 

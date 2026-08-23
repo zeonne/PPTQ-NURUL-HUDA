@@ -16,7 +16,7 @@ export const Route = createFileRoute("/about")({
       {
         name: "description",
         content:
-          "Sejarah, visi, misi, nilai, struktur organisasi, dan dewan guru Pondok Pesantren Tahfidzul Qur'an Nurul Huda Cileungsi, Bogor.",
+          "Sejarah, visi, misi, nilai, struktur organisasi, dan dewan guru Pondok Pesantren Tahfizhul Qur'an Nurul Huda Cileungsi, Bogor.",
       },
       { property: "og:title", content: "Profil Pesantren — PPTQ Nurul Huda" },
       {

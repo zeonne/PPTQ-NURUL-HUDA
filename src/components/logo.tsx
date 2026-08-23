@@ -36,7 +36,7 @@ export function Logo({
             variant === "light" ? "text-white/70" : "text-muted-foreground",
           )}
         >
-          Tahfidzul Qur'an
+          Tahfizhul Qur'an
         </span>
       </span>
     </span>
