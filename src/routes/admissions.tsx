@@ -42,8 +42,8 @@ function AdmissionsPage() {
     <PageTransition>
       <PageHero
         eyebrow="PSB 2027/2028"
-        title="Penerimaan santri baru telah dibuka"
-        description="Ikuti enam langkah pendaftaran berikut. Panitia PSB mendampingi Anda dari pengisian formulir hingga masa ta'aruf santri."
+        title="Penerimaan Santri Baru PPTQ Nurul Huda telah dibuka"
+        description="Ikuti alur pendaftaran dan seleksi calon santri. Panitia PSB siap mendampingi Anda dari pendaftaran hingga ta'aruf."
         image={images.classroom}
       >
         <Button asChild variant="gold">
@@ -89,7 +89,7 @@ function AdmissionsPage() {
         <div className="container-page grid gap-8 lg:grid-cols-2">
           <Reveal>
             <h2 id="jadwal-psb" className="font-display text-2xl font-semibold">
-              Jadwal gelombang pendaftaran
+              Jadwal pendaftaran Santri Baru
             </h2>
             <ul className="mt-6 space-y-4">
               {admissionSchedule.map((phase) => (
@@ -120,7 +120,7 @@ function AdmissionsPage() {
               ))}
             </ul>
             <p className="mt-4 text-xs text-muted-foreground">
-              Dokumen dapat diunggah dalam format PDF atau JPG maksimal 2 MB per berkas.
+              Pendaftaran tambahan bukan gelombang baru dan tetap melalui proses seleksi sesuai ketentuan PPTQ Nurul Huda.
             </p>
           </Reveal>
         </div>

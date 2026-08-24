@@ -93,7 +93,7 @@ export const stats = [
   { label: "Santri Aktif", value: 188, suffix: "+", description: "Putra & putri jenjang SMP–SMA" },
   { label: "Asatidz & Guru", value: 34, suffix: "+", description: "Hafidz/ah, sarjana diniyah & umum" },
   { label: "Alumni", value: 39, suffix: "", description: "Lulusan 3 angkatan" },
-  { label: "Santri Hafidz/ah", value: 46, suffix: "+", description: "Selesai 30Juz" },
+  { label: "Santri Hafidz/ah", value: 46, suffix: "+", description: "Selesai Hafalan 30Juz" },
 ];
 
 export const advantages = [
@@ -559,12 +559,12 @@ export const orgStructure = [
 ];
 
 export const admissionSteps = [
-  { step: "01", title: "Pendaftaran Online", description: "Isi formulir daring dan unggah dokumen persyaratan melalui portal PSB." },
-  { step: "02", title: "Pembayaran Biaya Seleksi", description: "Transfer biaya pendaftaran, lalu konfirmasi bukti bayar ke panitia." },
-  { step: "03", title: "Tes Seleksi", description: "Tes baca Al-Qur'an, hafalan dasar, akademik, dan wawancara santri bersama wali." },
-  { step: "04", title: "Pengumuman", description: "Hasil seleksi diumumkan melalui portal PSB dan pesan WhatsApp resmi." },
-  { step: "05", title: "Daftar Ulang", description: "Pelunasan administrasi, pengukuran seragam, dan pengambilan perlengkapan asrama." },
-  { step: "06", title: "Masa Ta'aruf Santri", description: "Orientasi pengenalan lingkungan, adab, dan jadwal harian pesantren." },
+  { step: "01", title: "Pendaftaran Online", description: "Mengisi formulir pendaftaran secara online melalui kanal resmi PSB." },
+  { step: "02", title: "Mengenal Calon Santri", description: "Wali santri memberikan informasi tentang kesehatan, karakter, kebiasaan, kemampuan, dan kesiapan anak mengikuti kehidupan di pesantren." },
+  { step: "03", title: "Verifikasi & Klarifikasi", description: "Panitia memeriksa data dan mengklarifikasi informasi yang perlu diperjelas." },
+  { step: "04", title: "Seleksi & Wawancara", description: "Seleksi meliputi tilawah, tahfizh, tsaqafah, serta wawancara calon santri dan wali." },
+  { step: "05", title: "Pengumuman Hasil Seleksi", description: "Hasil seleksi disampaikan melalui kanal informasi resmi PSB." },
+  { step: "06", title: "Daftar Ulang & Ta'aruf", description: "Santri yang diterima melakukan daftar ulang dan mengikuti ta'aruf serta pengenalan kehidupan pesantren." },
 ];
 
 export const requirements = [
@@ -577,9 +577,9 @@ export const requirements = [
 ];
 
 export const admissionSchedule = [
-  { phase: "Gelombang I", period: "1 Sep – 30 Nov 2026", test: "7 Desember 2026", note: "Diskon uang pangkal 15%" },
-  { phase: "Gelombang II", period: "1 Des 2026 – 28 Feb 2027", test: "8 Maret 2027", note: "Diskon uang pangkal 7%" },
-  { phase: "Gelombang III", period: "1 Mar – 30 Apr 2027", test: "10 Mei 2027", note: "Kuota terbatas" },
+  { phase: "Gelombang I", period: "1 Sep – 31 Des 2026", test: "7 Desember 2026", note: "Diskon uang pangkal 15%" },
+  { period: "Pendaftaran Tambahan Setelah masa pendaftaran berakhir, pendaftaran masih dapat dipertimbangkan secara terbatas apabila kuota santri masih tersedia." },
+  // { phase: "Gelombang III", period: "1 Mar – 30 Apr 2027", test: "10 Mei 2027", note: "Kuota terbatas" },
 ];
 
 export const fees = [
