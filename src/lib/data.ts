@@ -568,12 +568,12 @@ export const admissionSteps = [
 ];
 
 export const requirements = [
-  "Fotokopi akta kelahiran dan kartu keluarga",
-  "Fotokopi rapor dua semester terakhir",
-  "Pas foto berwarna 3x4 sebanyak 4 lembar",
-  "Surat keterangan sehat dari dokter",
-  "Mampu membaca Al-Qur'an dengan tartil",
-  "Bersedia tinggal di asrama dan menaati tata tertib",
+  "Lulusan SD/MI atau sederajat.",
+  "Mampu membaca Al-Qur'an.",
+  "Memiliki kemampuan dasar hafalan Al-Qur'an.",
+  "Bersedia tinggal di asrama dan menaati tata tertib pesantren.",
+  "Mendapat persetujuan dan dukungan orang tua/wali.",
+  "Melengkapi dokumen yang dipersyaratkan panitia.",
 ];
 
 export const admissionSchedule = [

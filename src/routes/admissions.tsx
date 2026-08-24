@@ -103,7 +103,7 @@ function AdmissionsPage() {
                     </span>
                   </div>
                   <p className="mt-3 text-sm text-muted-foreground"> {phase.period}</p>
-                  <p className="text-sm text-muted-foreground">Tes seleksi: {phase.test}</p>
+                  <p className="text-sm text-muted-foreground"> {phase.test}</p>
                 </li>
               ))}
             </ul>
