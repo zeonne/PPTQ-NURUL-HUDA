@@ -41,7 +41,7 @@ export function ProgramCard({ program }: { program: Program }) {
 
         <div className="mt-6 grid gap-6 sm:grid-cols-2">
           <div>
-            <h4 className="font-display text-xs font-semibold tracking-wide uppercase">Manfaat</h4>
+            <h4 className="font-display text-xs font-semibold tracking-wide uppercase">Fokus</h4>
             <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
               {program.benefits.map((benefit) => (
                 <li key={benefit} className="flex gap-2">

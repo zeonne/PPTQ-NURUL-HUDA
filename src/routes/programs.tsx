@@ -34,9 +34,9 @@ function ProgramsPage() {
   return (
     <PageTransition>
       <PageHero
-        eyebrow="Program"
-        title="Kurikulum yang menyeimbangkan hafalan, ilmu, dan keterampilan"
-        description="Setiap program dirancang bertahap dengan target terukur, pendampingan asatidz, dan evaluasi berkala agar santri berkembang utuh."
+        eyebrow="Program Pendidikan"
+        title="Pendidikan Qur’ani yang memadukan hafalan, ilmu, dan pembentukan karakter"
+        description="Pendidikan PPTQ Nurul Huda memadukan tahfizhul Qur’an, tahsin, diniyah dan kajian kitab, pendidikan umum, bahasa, serta pembinaan adab dalam kehidupan pesantren yang terarah dan berkesinambungan."
         image={images.tahfidz}
       >
         <Button asChild variant="gold">
