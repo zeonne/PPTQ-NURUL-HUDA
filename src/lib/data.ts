@@ -577,8 +577,8 @@ export const requirements = [
 ];
 
 export const admissionSchedule = [
-  { phase: "Gelombang I", period: "1 Sep – 31 Des 2026", test: "7 Desember 2026", note: "Diskon uang pangkal 15%" },
-  { period: "Pendaftaran Tambahan Setelah masa pendaftaran berakhir, pendaftaran masih dapat dipertimbangkan secara terbatas apabila kuota santri masih tersedia." },
+  { phase: "Periode I", period: "1 Sep – 31 Des 2026", note: "" },
+  { phase: "Pendaftaran Tambahan", period: "Pendaftaran Tambahan Setelah masa pendaftaran berakhir, pendaftaran masih dapat dipertimbangkan secara terbatas apabila kuota santri masih tersedia.", note: "" },
   // { phase: "Gelombang III", period: "1 Mar – 30 Apr 2027", test: "10 Mei 2027", note: "Kuota terbatas" },
 ];
 

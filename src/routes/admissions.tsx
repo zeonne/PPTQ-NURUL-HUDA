@@ -102,7 +102,7 @@ function AdmissionsPage() {
                       {phase.note}
                     </span>
                   </div>
-                  <p className="mt-3 text-sm text-muted-foreground">Periode: {phase.period}</p>
+                  <p className="mt-3 text-sm text-muted-foreground"> {phase.period}</p>
                   <p className="text-sm text-muted-foreground">Tes seleksi: {phase.test}</p>
                 </li>
               ))}
