@@ -583,10 +583,10 @@ export const admissionSchedule = [
 ];
 
 export const fees = [
-  { item: "Biaya pendaftaran", amount: "Rp 350.000", note: "Dibayar satu kali saat mendaftar" },
-  { item: "Uang pangkal", amount: "Rp 9.500.000", note: "Termasuk perlengkapan asrama & seragam" },
-  { item: "SPP bulanan", amount: "Rp 1.450.000", note: "Sudah termasuk makan 3x sehari" },
-  { item: "Kegiatan tahunan", amount: "Rp 1.200.000", note: "Ekstrakurikuler, ujian, dan kegiatan santri" },
+  { item: "Biaya pendaftaran", amount: "Rp350.000", note: "Dibayar satu kali saat mendaftar" },
+  { item: "Daftar Masuk", amount: "Rp5.500.000", note: "Wakaf bangunan, SPP bulan Juli, perlengkapan tidur, tempat menyimpan pakaian dan barang, buku pelajaran 1 semester, dan seragam" },
+  { item: "SPP bulanan", amount: "Min. Rp500.000/bulan", note: "Pembayaran biaya pendidikan bulanan, makan 3x sehari, dll" },
+  { item: "Kitab", amount: "±Rp300.000/semester", note: "Kebutuhan kitab pembelajaran per-semester" },
 ];
 
 export const faqs: Faq[] = [

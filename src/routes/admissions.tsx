@@ -129,7 +129,7 @@ function AdmissionsPage() {
       <section aria-labelledby="biaya" className="container-page py-20">
         <SectionTitle
           eyebrow="Rincian Biaya"
-          title="Transparan sejak awal"
+          title="Rincian Biaya Pendidikan"
           description="Tidak ada biaya tersembunyi. Setiap komponen dijelaskan lengkap kepada wali santri."
         />
         <h2 id="biaya" className="sr-only">
@@ -176,7 +176,7 @@ function AdmissionsPage() {
             </a>
           </Button>
           <span className="text-xs text-muted-foreground sm:self-center">
-            Tersedia beasiswa prestasi tahfidz, akademik, serta beasiswa dhuafa dan yatim.
+            Rincian biaya dapat disampaikan lebih lengkap oleh panitia PSB kepada calon santri dan wali santri pada saat proses pendaftaran.
           </span>
         </Reveal>
       </section>
