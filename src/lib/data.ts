@@ -586,39 +586,49 @@ export const fees = [
   { item: "Biaya pendaftaran", amount: "Rp350.000", note: "Dibayar satu kali saat mendaftar" },
   { item: "Daftar Masuk", amount: "Rp5.500.000", note: "Wakaf bangunan, SPP bulan Juli, perlengkapan tidur, tempat menyimpan pakaian dan barang, buku pelajaran 1 semester, dan seragam" },
   { item: "SPP bulanan", amount: "Min. Rp500.000/bulan", note: "Pembayaran biaya pendidikan bulanan, makan 3x sehari, dll" },
-  { item: "Kitab", amount: "±Rp300.000/semester", note: "Kebutuhan kitab pembelajaran per-semester" },
+  { item: "Kitab", amount: "±Rp300.000/semester", note: "Kebutuhan kitab pembelajaran harian santri per-semester" },
 ];
 
 export const faqs: Faq[] = [
   {
-    question: "Apakah santri wajib sudah memiliki hafalan sebelum mendaftar?",
+    question: "Apakah calon santri harus sudah memiliki hafalan Al-Qur'an?",
     answer:
-      "Tidak wajib. Syarat utamanya adalah mampu membaca Al-Qur'an dengan tartil. Santri baru akan mengikuti kelas tahsin sebelum masuk program hafalan.",
+      "Tidak harus. Calon santri mengikuti seleksi sesuai kemampuan dasar yang dimiliki. Yang terpenting mampu membaca Al-Qur'an dengan baik dan memiliki kesiapan untuk mengikuti program tahfizh.",
   },
   {
-    question: "Berapa lama waktu yang dibutuhkan untuk menyelesaikan 30 juz?",
+    question: "Apa saja materi seleksi calon santri?",
     answer:
-      "Rata-rata santri menuntaskan 30 juz dalam 4–5 tahun dengan target setoran satu halaman per hari serta muraja'ah rutin.",
+      "Seleksi meliputi tilawah, tahfizh, tsaqafah, serta wawancara dengan calon santri dan wali.",
   },
   {
-    question: "Apakah tersedia beasiswa?",
+    question: "Apakah santri harus tinggal di asrama?",
     answer:
-      "Tersedia beasiswa prestasi tahfidz dan akademik, serta beasiswa dhuafa dan yatim dengan kuota terbatas setiap gelombang.",
+      "Ya. Santri mengikuti pendidikan dan pembinaan dalam sistem asrama serta mengikuti tata tertib dan kegiatan harian pesantren.",
   },
   {
-    question: "Kapan wali santri dapat menjenguk?",
+    question: "Berapa lama masa pendidikan di PPTQ Nurul Huda?",
     answer:
-      "Kunjungan wali dijadwalkan setiap dua pekan pada hari Ahad pukul 09.00–15.00 WIB, di luar masa ujian dan karantina hafalan.",
+      "Program pendidikan dirancang selama 6 tahun, dengan perpaduan program tahfizhul Qur'an, kepondokan, dan pembelajaran nonformal.",
   },
   {
-    question: "Apakah santri boleh membawa telepon genggam?",
+    question: "Apakah santri mendapatkan ijazah?",
     answer:
-      "Tidak. Komunikasi dengan keluarga difasilitasi melalui telepon pesantren pada jadwal yang telah ditentukan setiap pekan.",
+      "Ya. Santri mendapatkan ijazah kesetaraan (ijazah Paket) sesuai program pendidikan yang diikuti.",
   },
   {
-    question: "Apakah jenjang SMP dan SMA memiliki ijazah negara?",
+    question: "Apakah santri menggunakan Bahasa Arab dan Inggris?",
     answer:
-      "Ya. Kedua jenjang terakreditasi A dan menerbitkan ijazah negara sehingga alumni dapat melanjutkan ke PTN maupun kampus luar negeri.",
+      "Ya. Bahasa Arab dan Inggris digunakan dalam keseharian santri pada waktu dan kegiatan yang telah ditentukan.",
+  },
+  {
+    question: "Berapa biaya pendidikan di PPTQ Nurul Huda?",
+    answer:
+      "Biaya masuk sebesar Rp5.500.000, biaya bulanan minimal Rp500.000, dan kebutuhan kitab sekitar Rp300.000 per semester. Rincian lengkap disampaikan oleh panitia PSB.",
+  },
+  {
+    question: "Kapan pendaftaran santri baru dibuka?",
+    answer:
+      "Pendaftaran TA 2027/2028 dibuka mulai 1 September sampai 31 Desember 2026. Setelah masa pendaftaran berakhir, pendaftaran tambahan dapat dipertimbangkan apabila kuota masih tersedia.",
   },
 ];
 

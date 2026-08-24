@@ -129,8 +129,8 @@ function AdmissionsPage() {
       <section aria-labelledby="biaya" className="container-page py-20">
         <SectionTitle
           eyebrow="Rincian Biaya"
-          title="Rincian Biaya Pendidikan"
-          description="Tidak ada biaya tersembunyi. Setiap komponen dijelaskan lengkap kepada wali santri."
+          title="Rincian Biaya Pendidikan Santri Baru"
+          description="Informasi biaya disampaikan secara terbuka sejak awal agar wali santri memahami kebutuhan pendidikan dan pembinaan selama di pesantren."
         />
         <h2 id="biaya" className="sr-only">
           Rincian biaya
