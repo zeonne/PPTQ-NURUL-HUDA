@@ -70,10 +70,10 @@ function ProgramsPage() {
           <div className="surface-card flex flex-col items-start gap-6 p-9 hover:translate-y-0 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <h2 id="konsultasi" className="font-display text-2xl font-semibold text-balance">
-                Membangun bekal ilmu dan Al-Qur'an untuk masa depan
+                Masa depan anak dimulai dari bekal yang kita berikan hari ini.
               </h2>
               <p className="mt-2 text-sm text-muted-foreground">
-                Setiap santri dibimbing melalui proses pendidikan yang terarah, mulai dari tahsin dan tahfizh, pembelajaran diniyah dan kitab, pendidikan umum, hingga pembentukan adab dan kemandirian.
+                Bangun fondasi ilmu, iman, dan Al-Qur’an agar mereka tumbuh menjadi generasi yang kuat, berakhlak, dan siap menghadapi zaman.
               </p>
             </div>
             <Button asChild size="lg" className="shrink-0">
