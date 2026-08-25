@@ -186,7 +186,7 @@ export const programs: Program[] = [
       "Pendidikan umum dilaksanakan secara terpadu dengan program kepesantrenan agar santri memiliki bekal akademik sekaligus tetap mendapatkan pembinaan Al-Qur'an dan ilmu agama.",
     duration: "Sepanjang masa studi",
     benefits: ["Pendidikan umum", "Literasi dan pengetahuan", "Pembelajaran kesetaraan", "Evaluasi pembelajaran", "Persiapan melanjutkan pendidikan"],
-    // activities: ["Mufradat pagi", "Muhadharah tiga bahasa", "English & Arabic Club", "Language camp semesteran"],
+    activities: ["Mufradat pagi", "Muhadharah tiga bahasa", "English & Arabic Club", "Language camp semesteran"],
     image: languageImg,
     icon: "Languages",
   },
