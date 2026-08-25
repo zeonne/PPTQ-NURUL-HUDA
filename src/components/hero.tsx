@@ -67,7 +67,7 @@ export function Hero() {
           <dl className="mt-12 grid max-w-xl grid-cols-2 gap-x-8 gap-y-6 border-t border-white/15 pt-8 sm:grid-cols-3">
             {[
               { label: "Target hafalan", value: "30 Juz" },
-              { label: "Rasio halaqah", value: "1 : 12" },
+              { label: "Rasio halaqah", value: "1 : 9" },
               { label: "Sejak tahun", value: "2018" },
             ].map((fact) => (
               <div key={fact.label}>
