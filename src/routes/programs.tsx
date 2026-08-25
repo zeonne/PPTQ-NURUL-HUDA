@@ -70,10 +70,10 @@ function ProgramsPage() {
           <div className="surface-card flex flex-col items-start gap-6 p-9 hover:translate-y-0 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <h2 id="konsultasi" className="font-display text-2xl font-semibold text-balance">
-                Belum yakin program mana yang paling sesuai?
+                Membangun bekal ilmu dan Al-Qur'an untuk masa depan
               </h2>
               <p className="mt-2 text-sm text-muted-foreground">
-                Panitia kami siap membantu memetakan kemampuan awal dan target hafalan calon santri.
+                Setiap santri dibimbing melalui proses pendidikan yang terarah, mulai dari tahsin dan tahfizh, pembelajaran diniyah dan kitab, pendidikan umum, hingga pembentukan adab dan kemandirian.
               </p>
             </div>
             <Button asChild size="lg" className="shrink-0">
