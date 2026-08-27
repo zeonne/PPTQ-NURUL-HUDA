@@ -22,11 +22,11 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "PPTQ Nurul Huda — Pesantren Tahfidz Qur'an Magetan" },
+      { title: "PPTQ Nurul Huda Magetan | Pesantren Tahfidzul Qur'an" },
       {
         name: "description",
         content:
-          "Pondok Pesantren Tahfizhul Qur'an Nurul Huda membina santri hafal 30 juz dengan kurikulum diniyah dan akademik.",
+          "PPTQ Nurul Huda Magetan adalah pondok pesantren tahfidzul Qur'an yang membina santri melalui hafalan Al-Qur'an, pendidikan diniyah, pembinaan akhlak, dan pendidikan akademik.",
       },
       { property: "og:title", content: "PPTQ Nurul Huda — Pesantren Tahfidz Qur'an Magetan" },
       {
@@ -34,9 +34,10 @@ export const Route = createFileRoute("/")({
         content:
           "Mencetak Generasi Qur'ani Berakhlakul Karimah. Program tahfidz 30 juz, diniyah, dan akademik dalam satu kampus terpadu.",
       },
-      { property: "og:url", content: "/" },
+      { property: "og:url", content: "https://www.nurulhudamagetan.id/" },
+      { property: "og:image", content: "https://www.nurulhudamagetan.id/og-image.jpg" },
     ],
-    links: [{ rel: "canonical", href: "/" }],
+    links: [{ rel: "canonical", href: "https://www.nurulhudamagetan.id/" }],
   }),
   component: HomePage,
 });
