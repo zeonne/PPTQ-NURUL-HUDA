@@ -81,14 +81,63 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { name: "author", content: "Pondok Pesantren Tahfizhul Qur'an Nurul Huda" },
+
+      // SEO
+      {
+        title: "PPTQ Nurul Huda Magetan | Pesantren Tahfidzul Qur'an",
+      },
+      {
+        name: "description",
+        content:
+          "PPTQ Nurul Huda Magetan adalah pondok pesantren tahfidzul Qur'an yang memadukan hafalan Al-Qur'an, pendidikan diniyah, pembinaan akhlak, dan pendidikan akademik.",
+      },
+      {
+        name: "author",
+        content: "Pondok Pesantren Tahfizhul Qur'an Nurul Huda",
+      },
+
+      // Open Graph
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "PPTQ Nurul Huda Magetan" },
       { property: "og:locale", content: "id_ID" },
+      {
+        property: "og:title",
+        content: "PPTQ Nurul Huda Magetan | Pesantren Tahfidzul Qur'an",
+      },
+      {
+        property: "og:description",
+        content:
+          "Pondok Pesantren Tahfidzul Qur'an Nurul Huda Magetan. Membina hafalan Al-Qur'an, ilmu, dan akhlak.",
+      },
+      {
+        property: "og:url",
+        content: "https://www.nurulhudamagetan.id/",
+      },
+      {
+        property: "og:image",
+        content: "https://www.nurulhudamagetan.id/og-image.jpg",
+      },
+
+      // Twitter / X
       { name: "twitter:card", content: "summary_large_image" },
+      {
+        name: "twitter:title",
+        content: "PPTQ Nurul Huda Magetan | Pesantren Tahfidzul Qur'an",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "Pondok Pesantren Tahfidzul Qur'an Nurul Huda Magetan.",
+      },
+      {
+        name: "twitter:image",
+        content: "https://www.nurulhudamagetan.id/og-image.jpg",
+      },
+
       { name: "theme-color", content: "#043927" },
     ],
     links: [
+      { rel: "canonical", href: "https://www.nurulhudamagetan.id/",},
       { rel: "stylesheet", href: appCss },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -103,19 +152,40 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         type: "application/ld+json",
         children: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "School",
-          name: "Pondok Pesantren Tahfizhul Qur'an Nurul Huda",
-          slogan: "Mencetak Generasi Qur'ani Berakhlakul Karimah",
-          address: {
-            "@type": "PostalAddress",
-            streetAddress: "Dusun Secikal, RT/RW 04/01, Kenongomulyo",
-            addressLocality: "Kenongomulyo, Magetan",
-            addressRegion: "Jawa Timur",
-            postalCode: "63383",
-            addressCountry: "ID",
-          },
-          telephone: "+62 23 3883 2018",
-          email: "pptq.nurulhuda1@gmail.com",
+          "@graph": [
+            {
+              "@type": "School",
+              "@id": "https://www.nurulhudamagetan.id/#school",
+              name: "Pondok Pesantren Tahfizhul Qur'an Nurul Huda",
+              alternateName: "PPTQ Nurul Huda Magetan",
+              url: "https://www.nurulhudamagetan.id/",
+              slogan: "Mencetak Generasi Qur'ani Berakhlakul Karimah",
+              description:
+                "Pondok Pesantren Tahfidzul Qur'an Nurul Huda Magetan yang memadukan hafalan Al-Qur'an, pendidikan diniyah, pembinaan akhlak, dan pendidikan akademik.",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "Dusun Secikal, RT/RW 04/01, Kenongomulyo",
+                addressLocality: "Kenongomulyo",
+                addressRegion: "Jawa Timur",
+                postalCode: "63383",
+                addressCountry: "ID",
+              },
+              email: "mailto:pptq.nurulhuda1@gmail.com",
+            },
+
+            {
+              "@type": "WebSite",
+              "@id": "https://www.nurulhudamagetan.id/#website",
+              url: "https://www.nurulhudamagetan.id/",
+              name: "PPTQ Nurul Huda Magetan",
+              description:
+                "Website resmi Pondok Pesantren Tahfizhul Qur'an Nurul Huda Magetan.",
+              inLanguage: "id-ID",
+              publisher: {
+                "@id": "https://www.nurulhudamagetan.id/#school",
+              },
+            },
+          ],
         }),
       },
     ],
