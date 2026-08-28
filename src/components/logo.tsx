@@ -13,7 +13,7 @@ export function Logo({
       <span
         aria-hidden="true"
         className={cn(
-          "grid size-full shrink-0 place-items-center rounded-2xl border",
+          "grid size-11 shrink-0 place-items-center rounded-2xl border",
           variant === "light"
             ? "border-white/30 bg-white/10 text-gold backdrop-blur-md"
             : "border-primary/15 bg-primary text-gold",
@@ -22,7 +22,7 @@ export function Logo({
         <img
           src="/favicon.ico"
           alt=""
-          className="size-6 object-contain"
+          className="size-10 object-contain"
         />
       </span>
       <span className="min-w-0 leading-tight">
