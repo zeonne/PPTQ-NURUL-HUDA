@@ -496,7 +496,7 @@ export const gallery: GalleryItem[] = [
   { title: "Kamar Asrama Santri", category: "Asrama", image: dormitoryImg, type: "photo" },
   { title: "Prestasi Santri", category: "Prestasi", image: libraryImg, type: "photo" },
   { title: "Kegiatan Silat Santri", category: "Kegiatan", image: tapaksuci, type: "photo" },
-  { title: "Kegiatan Belajar", category: "Kegiatan", image: news2, type: "photo" },
+  { title: "Kegiatan Belajar Santri Putri", category: "Kegiatan", image: news2, type: "photo" },
   { title: "Muhadharah Tiga Bahasa", category: "Kegiatan", image: languageImg, type: "photo" },
   { title: "Laboratorium Komputer", category: "Fasilitas", image: computerLabImg, type: "photo" },
   { title: "Gerakan Santri Menanam", category: "Kegiatan", image: news3, type: "photo" },

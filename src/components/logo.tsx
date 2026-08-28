@@ -19,7 +19,11 @@ export function Logo({
             : "border-primary/15 bg-primary text-gold",
         )}
       >
-        <BookOpenText className="size-5" />
+        <img
+          src="/logo.png"
+          alt=""
+          className="size-6 object-contain"
+        />
       </span>
       <span className="min-w-0 leading-tight">
         <span
