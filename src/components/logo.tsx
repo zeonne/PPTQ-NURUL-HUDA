@@ -20,7 +20,7 @@ export function Logo({
         )}
       >
         <img
-          src="/logo.png"
+          src="/favicon.ico"
           alt=""
           className="size-6 object-contain"
         />
