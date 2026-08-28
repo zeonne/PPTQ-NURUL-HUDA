@@ -34,8 +34,8 @@ export function Hero() {
           className="max-w-3xl"
         >
           <p className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-1.5 text-xs font-semibold tracking-[0.12em] text-gold uppercase backdrop-blur-md">
-            <Sparkles className="size-3.5" aria-hidden="true" />
-            Qur'ani Sederhana Disiplin
+            
+            Qur'ani - Sederhana - Disiplin
           </p>
 
           <h1 className="mt-6 font-display text-4xl leading-[1.08] font-semibold text-white text-balance sm:text-5xl lg:text-6xl">
