@@ -14,6 +14,7 @@ import news2 from "@/assets/news-2.jpg";
 import news3 from "@/assets/news-3.jpg";
 import principalImg from "@/assets/principal.jpg";
 import tapaksuci from "@/assets/tapaksuci.jpg";
+import NHICImg from "@/assets/NHIC.jpg";
 
 import type {
   EventItem,
@@ -242,9 +243,9 @@ export const facilities: Facility[] = [
     image: classroomImg,
   },
   {
-    name: "Laboratorium Komputer",
-    description: "40 unit komputer untuk literasi digital dan coding class.",
-    detail: "Akses internet terkurasi dan pendampingan guru TIK.",
+    name: "Perangkat Komputer",
+    description: "Perangkat laptop yang digunakan untuk mendukung pembelajaran teknologi dan keterampilan digital santri.",
+    detail: "Laptop • Pembelajaran komputer • Literasi digital",
     image: computerLabImg,
   },
   {
@@ -389,7 +390,7 @@ export const news: NewsItem[] = [
     date: "2026-04-05",
     excerpt:
       "NHIC (Nurul Huda Internal Contest) menjadi wadah bagi santri untuk mengembangkan keberanian, kemampuan, dan semangat berkompetisi. Kegiatan ini juga menjadi bagian dari pembinaan potensi santri di luar kegiatan rutin pesantren.",
-    image: mosqueImg,
+    image: NHICImg,
     readMinutes: 4,
   },
   {
