@@ -29,10 +29,15 @@ export const Route = createFileRoute("/facilities")({
 });
 
 const highlights = [
-  "Kampus terpadu seluas 2,4 hektare dengan area putra dan putri terpisah",
-  "CCTV dan petugas keamanan 24 jam di seluruh area asrama",
-  "Klinik kesehatan dengan perawat jaga dan kerja sama rumah sakit terdekat",
-  "Air bersih, laundry santri, dan katering gizi seimbang tiga kali sehari",
+  "Area putra dan putri terpisah dalam lingkungan pesantren.",
+  "Pendampingan pembina dalam kehidupan dan kegiatan harian santri.",
+  "Pemantauan lingkungan dengan CCTV di sebagian area asrama.",
+  "Layanan kesehatan dan akses ke puskesmas/UGD bila diperlukan.",
+  "Air bersih dan sanitasi untuk menunjang kebutuhan sehari-hari.",
+  "Penyediaan makanan terjadwal serta dukungan program MBG.",
+  "Kegiatan olahraga dan fasilitas belajar untuk mendukung keseimbangan pendidikan santri.",
+  "Komunikasi dan informasi santri melalui wali santri/pengurus sesuai ketentuan pesantren.",
+  "Pembinaan kehidupan asrama melalui ibadah berjamaah, murojaah, belajar malam, kebersihan, dan kedisiplinan.",
 ];
 
 function FacilitiesPage() {

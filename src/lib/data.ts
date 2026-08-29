@@ -218,27 +218,27 @@ export const programs: Program[] = [
 
 export const facilities: Facility[] = [
   {
-    name: "Masjid Pesantren",
-    description: "Pusat ibadah dan halaqah tahfidz berkapasitas 1.200 jamaah.",
-    detail: "Berpendingin udara, dilengkapi sound system dan ruang khusus tahsin.",
+    name: "Masjid Nurul Huda",
+    description: "Pusat ibadah, tahfizh, kajian, dan pembinaan santri serta masyarakat.",
+    detail: "Nyaman untuk ibadah dan kegiatan keislaman, menjadi bagian penting dari kehidupan pendidikan santri di PPTQ Nurul Huda.",
     image: mosqueImg,
   },
   {
     name: "Perpustakaan",
-    description: "Koleksi 12.000 judul kitab, buku pelajaran, dan referensi digital.",
-    detail: "Ruang baca hening, katalog online, dan layanan peminjaman mandiri.",
+    description: "Koleksi kitab dan buku referensi untuk menunjang tahfizh, diniyah, dan pembelajaran santri.",
+    detail: "Ruang baca • Kitab • Buku pelajaran • Referensi",
     image: libraryImg,
   },
   {
     name: "Asrama Santri",
-    description: "Hunian nyaman dengan pembina yang tinggal bersama santri.",
-    detail: "Kapasitas 6 santri per kamar, loker pribadi, dan kamar mandi bersih.",
+    description: "Hunian nyaman dengan pembina dalam kehidupan sehari-hari.",
+    detail: "Kapasitas 16 santri per kamar, dilengkapi tempat tidur, lemari/loker, dll.",
     image: dormitoryImg,
   },
   {
     name: "Ruang Kelas",
-    description: "Kelas belajar terang dengan maksimal 24 santri per rombel.",
-    detail: "Dilengkapi proyektor, papan interaktif, dan sirkulasi udara baik.",
+    description: "Ruang pembelajaran yang digunakan untuk kegiatan akademik, diniyah, dan kajian kitab dalam suasana yang sederhana dan kondusif.",
+    detail: "Dilengkapi Meja belajar sederhana • Papan tulis • Ruang belajar yang tertib dan nyaman",
     image: classroomImg,
   },
   {
@@ -249,14 +249,14 @@ export const facilities: Facility[] = [
   },
   {
     name: "Lapangan Olahraga",
-    description: "Lapangan serbaguna untuk futsal, voli, dan basket.",
-    detail: "Digunakan untuk olahraga pagi dan turnamen antar asrama.",
+    description: "Fasilitas olahraga serbaguna untuk mendukung kebugaran dan aktivitas santri.",
+    detail: "Voli • Panahan • Tenis meja • Bulu tangkis • Basket • Sepak bola",
     image: sportsImg,
   },
   {
     name: "Dapur & Ruang Makan",
-    description: "Katering bergizi tiga kali sehari dengan menu terjadwal.",
-    detail: "Dapur higienis, ruang makan luas, dan pengawasan ahli gizi.",
+    description: "Dapur pesantren yang mendukung penyediaan makanan santri secara teratur dan sesuai kebutuhan.",
+    detail: "Menu terjadwal • Dapur higenis • MBG • Disesuaikan dengan kondisi pesantren",
     image: diningImg,
   },
 ];
