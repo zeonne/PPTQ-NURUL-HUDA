@@ -19,7 +19,7 @@ export function Hero() {
       />
       <span
         aria-hidden="true"
-        className="absolute inset-0 bg-gradient-to-br from-primary-deep/92 via-primary-deep/72 to-primary/45"
+        className="absolute inset-0 bg-gradient-to-br from-primary-soft-deep/92 via-primary-soft-deep/72 to-primary-soft/45"
       />
       <span
         aria-hidden="true"
