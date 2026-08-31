@@ -43,7 +43,7 @@ export const Route = createFileRoute("/")({
   component: HomePage,
 });
 
-ffunction TestimonialCard({
+function TestimonialCard({
   item,
 }: {
   item: (typeof testimonials)[number];
