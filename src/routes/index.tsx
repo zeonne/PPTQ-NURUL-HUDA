@@ -55,23 +55,23 @@ function TestimonialCard({
       <Quote className="size-7 text-gold" aria-hidden="true" />
 
       <div className="relative mt-5">
-        <div
-          className={`overflow-hidden transition-[max-height] duration-500 ease-in-out ${
-            expanded ? "max-h-[1000px]" : "max-h-40"
-          }`}
-        >
-          <blockquote className="text-sm leading-relaxed text-primary/85">
-            {item.quote}
-          </blockquote>
-        </div>
+  <div
+    className={`overflow-hidden transition-[max-height] duration-500 ease-in-out ${
+      expanded ? "max-h-[1000px]" : "max-h-40"
+    }`}
+  >
+    <blockquote className="text-sm leading-relaxed text-primary-foreground/85">
+      {item.quote}
+    </blockquote>
+  </div>
 
-        {!expanded && (
-          <div
-            aria-hidden="true"
-            className="pointer-events-none absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-[#0b3829] to-transparent"
-          />
-        )}
-      </div>
+  {!expanded && (
+    <div
+      aria-hidden="true"
+      className="pointer-events-none absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-[#0b3829] to-transparent"
+    />
+  )}
+</div>
 
       <button
         type="button"
