@@ -55,7 +55,7 @@ function TestimonialCard({
       <Quote className="size-7 text-gold" aria-hidden="true" />
 
       <div
-  className={`mt-5 overflow-hidden transition-[max-height] duration-500 ease-in-out ${
+  className={`mt-5 overflow-hidden transition-[max-height] duration-500 ease-in-out ease-out-in ${
     expanded ? "max-h-[1000px]" : "max-h-40"
   }`}
 >
