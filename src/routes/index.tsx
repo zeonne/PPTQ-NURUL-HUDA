@@ -54,23 +54,26 @@ function TestimonialCard({
     <figure className="flex h-full flex-col rounded-3xl border border-white/12 bg-white/5 p-7 backdrop-blur-md">
       <Quote className="size-7 text-gold" aria-hidden="true" />
 
-      <blockquote className="relative mt-5 flex-1 overflow-hidden text-sm leading-relaxed text-primary-foreground/85">
-  <div className="relative">
-    {item.quote}
-
-    <span
-      aria-hidden="true"
-      className="pointer-events-none absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-[#0a3427] via-[#0a3427]/70 to-transparent"
-    />
+      <div className="relative mt-5">
+  <div
+    className={`overflow-hidden transition-[max-height] duration-500 ease-in-out ${
+      expanded ? "max-h-[1000px]" : "max-h-40"
+    }`}
+  >
+    <blockquote className="text-sm leading-relaxed text-primary-foreground/85">
+      {item.quote}
+    </blockquote>
   </div>
 
-  <button
-    type="button"
-    className="relative z-10 mt-1 text-xs font-semibold text-gold transition-opacity hover:opacity-80"
-  >
-    Read More
-  </button>
-</blockquote>
+  {!expanded && (
+    <span
+      aria-hidden="true"
+      className="absolute bottom-0 right-0 bg-primary-deep pl-1 text-sm text-primary-foreground/85"
+    >
+      ...
+    </span>
+  )}
+</div>
 
       <button
         type="button"
