@@ -427,15 +427,7 @@ export const news: NewsItem[] = [
 
 export const events: EventItem[] = [
   {
-    title: "Open House & Tur Pesantren",
-    date: "2026-08-23",
-    day: "23",
-    month: "Agu",
-    time: "08.00 – 12.00 WIB",
-    place: "Aula Utama Pesantren",
-  },
-  {
-    title: "Pembukaan Gelombang I PSB 2025/2026",
+    title: "Pendaftaran Santri Baru 2027/2028",
     date: "2026-09-01",
     day: "01",
     month: "Sep",
@@ -443,29 +435,45 @@ export const events: EventItem[] = [
     place: "Daring & Kantor PSB",
   },
   {
-    title: "Sima’an Akbar 30 Juz",
-    date: "2026-09-14",
-    day: "14",
+    title: "Outing Class",
+    date: "2026-09-21",
+    day: "21-25",
     month: "Sep",
-    time: "06.30 – 16.00 WIB",
-    place: "Masjid Pesantren",
+    time: "07.00 – Selesai",
+    place: "Tempat Kegiatan",
   },
   {
-    title: "Musabaqah Santri Antar-Asrama ",
-    date: "2026-10-05",
+    title: "Kegiatan Peringatan Hari G30 S-PKI",
+    date: "2026-09-30",
     day: "05",
+    month: "Sep",
+    time: "13.00 – 17.00 WIB",
+    place: "Aula Pondok",
+  },
+  {
+    title: "Ujian Tengah Semester",
+    date: "2026-10-01",
+    day: "01–09",
     month: "Okt",
     time: "13.00 – 17.00 WIB",
-    place: "Gedung Serbaguna",
+    place: "Kelas Masing2",
+  },
+  {
+    title: "Ujian Tengah Semester",
+    date: "2026-10-01",
+    day: "01–09",
+    month: "Okt",
+    time: "13.00 – 17.00 WIB",
+    place: "Kelas Masing2",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Anak kami tidak hanya bertambah hafalannya, tetapi juga terbiasa salat berjamaah dan berbicara santun di rumah. Perubahan adabnya adalah hal yang paling kami rasakan.",
-    name: "Bapak Hendra Kusuma",
-    role: "Wali santri kelas XI",
+      "Di Nurul Huda, kami tidak hanya dibekali hafalan, tetapi juga tahsin yang kuat. Bekal dari ustadzah yang bersanad sangat berpengaruh pada bacaan dan hafalan kami, bahkan hingga sekarang sebagai alumni. Alhamdulillah, bekal itu masih kami rasakan sampai hari ini.",
+    name: "Hilya",
+    role: "Santriwati alumni angkatan 1",
   },
   {
     quote:
@@ -482,12 +490,12 @@ export const testimonials = [
 ];
 
 export const partners = [
-  "Kementerian Agama RI",
-  "Institut Ilmu Al-Qur'an",
-  "LIPIA Jakarta",
-  "Universitas Al-Azhar",
-  "BAZNAS",
-  "Forum Pesantren Tahfidz",
+  "Dikpora Magetan ",
+  "LIPIA Jakarta dan Surabaya",
+  "STDI Imam Syafi'i Jember",
+  "Universitas Muhammadiyah",
+  "Ma'had Aly",
+  "Halaqah Online Masjid Nabawi",
 ];
 
 export const gallery: GalleryItem[] = [
