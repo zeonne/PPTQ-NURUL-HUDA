@@ -1,4 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { useState } from "react";
 import { ArrowRight, CalendarDays, Clock, MapPin, Quote } from "lucide-react";
 
 import { Hero } from "@/components/hero";
@@ -41,6 +42,46 @@ export const Route = createFileRoute("/")({
   }),
   component: HomePage,
 });
+
+function TestimonialCard({
+  item,
+}: {
+  item: (typeof testimonials)[number];
+}) {
+  const [expanded, setExpanded] = useState(false);
+
+  return (
+    <figure className="flex h-full flex-col rounded-3xl border border-white/12 bg-white/5 p-7 backdrop-blur-md">
+      <Quote className="size-7 text-gold" aria-hidden="true" />
+
+      <blockquote
+        className={`mt-5 text-sm leading-relaxed text-primary-foreground/85 ${
+          expanded ? "" : "line-clamp-6"
+        }`}
+      >
+        {item.quote}
+      </blockquote>
+
+      <button
+        type="button"
+        onClick={() => setExpanded((value) => !value)}
+        className="mt-3 w-fit text-sm font-medium text-gold transition-colors hover:text-white"
+        aria-expanded={expanded}
+      >
+        {expanded ? "Sembunyikan ↑" : "Baca selengkapnya →"}
+      </button>
+
+      <figcaption className="mt-6 border-t border-white/12 pt-4">
+        <span className="block font-display text-sm font-semibold">
+          {item.name}
+        </span>
+        <span className="block text-xs text-primary-foreground/60">
+          {item.role}
+        </span>
+      </figcaption>
+    </figure>
+  );
+}
 
 function HomePage() {
   const featured = news.find((item) => item.featured) ?? news[0]!;
@@ -166,21 +207,12 @@ function HomePage() {
           </Reveal>
 
           <ul className="mt-14 grid gap-6 md:grid-cols-3">
-            {testimonials.map((item, index) => (
-              <Reveal as="li" key={item.name} delay={index * 0.08} className="h-full">
-                <figure className="flex h-full flex-col rounded-3xl border border-white/12 bg-white/5 p-7 backdrop-blur-md">
-                  <Quote className="size-7 text-gold" aria-hidden="true" />
-                  <blockquote className="mt-5 flex-1 text-sm leading-relaxed text-primary-foreground/85">
-                    {item.quote}
-                  </blockquote>
-                  <figcaption className="mt-6 border-t border-white/12 pt-4">
-                    <span className="block font-display text-sm font-semibold">{item.name}</span>
-                    <span className="block text-xs text-primary-foreground/60">{item.role}</span>
-                  </figcaption>
-                </figure>
-              </Reveal>
-            ))}
-          </ul>
+  {testimonials.map((item, index) => (
+    <Reveal as="li" key={item.name} delay={index * 0.08} className="h-full">
+      <TestimonialCard item={item} />
+    </Reveal>
+  ))}
+</ul>
         </div>
       </section>
 
