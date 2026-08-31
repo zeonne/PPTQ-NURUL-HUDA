@@ -60,7 +60,7 @@ function TestimonialCard({
             expanded ? "max-h-[1000px]" : "max-h-40"
           }`}
         >
-          <blockquote className="text-sm leading-relaxed text-primary-foreground/85">
+          <blockquote className="text-sm leading-relaxed text-primary/85">
             {item.quote}
           </blockquote>
         </div>
