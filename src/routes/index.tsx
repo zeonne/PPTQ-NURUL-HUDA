@@ -43,7 +43,7 @@ export const Route = createFileRoute("/")({
   component: HomePage,
 });
 
-function TestimonialCard({
+ffunction TestimonialCard({
   item,
 }: {
   item: (typeof testimonials)[number];
@@ -54,26 +54,13 @@ function TestimonialCard({
     <figure className="flex h-full flex-col rounded-3xl border border-white/12 bg-white/5 p-7 backdrop-blur-md">
       <Quote className="size-7 text-gold" aria-hidden="true" />
 
-      <div className="relative mt-5">
-  <div
-    className={`overflow-hidden transition-[max-height] duration-500 ease-in-out ${
-      expanded ? "max-h-[1000px]" : "max-h-40"
-    }`}
-  >
-    <blockquote className="text-sm leading-relaxed text-primary-foreground/85">
-      {item.quote}
-    </blockquote>
-  </div>
-
-  {!expanded && (
-    <span
-      aria-hidden="true"
-      className="absolute bottom-0 right-0 bg-primary-deep pl-1 text-sm text-primary-foreground/85"
-    >
-      ...
-    </span>
-  )}
-</div>
+      <blockquote
+        className={`mt-5 text-sm leading-relaxed text-primary-foreground/85 ${
+          expanded ? "" : "line-clamp-6"
+        }`}
+      >
+        {item.quote}
+      </blockquote>
 
       <button
         type="button"
