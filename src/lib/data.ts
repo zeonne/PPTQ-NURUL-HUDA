@@ -431,7 +431,7 @@ export const events: EventItem[] = [
     date: "2026-09-01",
     day: "01",
     month: "Sep",
-    time: "09.00 WIB s/d Selesai",
+    time: "08.00 WIB - Selesai",
     place: "Daring & Kantor PSB",
   },
   {
@@ -447,7 +447,7 @@ export const events: EventItem[] = [
     date: "2026-09-30",
     day: "05",
     month: "Sep",
-    time: "13.00 – 17.00 WIB",
+    time: "07.00 – Selesai",
     place: "Aula Pondok",
   },
   {
@@ -455,7 +455,7 @@ export const events: EventItem[] = [
     date: "2026-10-01",
     day: "01–09",
     month: "Okt",
-    time: "13.00 – 17.00 WIB",
+    time: "09.00 – 14.00 WIB",
     place: "Kelas Masing2",
   },
   {
@@ -471,7 +471,7 @@ export const events: EventItem[] = [
 export const testimonials = [
   {
     quote:
-      "Di Nurul Huda, kami tidak hanya dibekali hafalan, tetapi juga tahsin yang kuat. Bekal dari ustadzah yang bersanad sangat berpengaruh pada bacaan dan hafalan kami, bahkan hingga sekarang sebagai alumni. Alhamdulillah, bekal itu masih kami rasakan sampai hari ini.",
+      "Maasyaallah, pembinaan tahfidz di Nurul Huda memang sangat baik. Sebelum mulai menghafal, kami dibekali tahsin langsung oleh ustadzah yang bersanad, dan itu benar-benar jadi bekal yang sangat penting dan sangat Maasyaallah, pembinaan tahfidz di Nurul Huda memang sangat baik. Sebelum mulai menghafal, kami dibekali tahsin langsung oleh ustadzah yang bersanad, dan itu benar-benar jadi bekal yang sangat penting dan sangat berpengaruh pada bacaan serta hafalan kami. Alhamdulillah, bekal itu masih kami rasakan sampai sekarang sebagai Alumni. Insyaallah, ini juga yang menjadi salah satu sebab bacaan dan hafalan para Alumni Nurul Huda tetap terjaga. pada bacaan serta hafalan kami. Alhamdulillah, bekal itu masih kami rasakan sampai sekarang sebagai Alumni. Insyaallah, ini juga yang menjadi salah satu sebab bacaan dan hafalan para Alumni Nurul Huda tetap terjaga.",
     name: "Hilya",
     role: "Santriwati alumni angkatan 1",
   },
