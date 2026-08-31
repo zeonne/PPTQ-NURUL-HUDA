@@ -54,13 +54,15 @@ function TestimonialCard({
     <figure className="flex h-full flex-col rounded-3xl border border-white/12 bg-white/5 p-7 backdrop-blur-md">
       <Quote className="size-7 text-gold" aria-hidden="true" />
 
-      <blockquote
-        className={`mt-5 text-sm leading-relaxed text-primary-foreground/85 ${
-          expanded ? "" : "line-clamp-6"
+      <div
+        className={`mt-5 overflow-hidden transition-[max-height] duration-500 ease-in-out ${
+          expanded ? "max-h-[1000px]" : "max-h-40"
         }`}
       >
-        {item.quote}
-      </blockquote>
+        <blockquote className="text-sm leading-relaxed text-primary-foreground/85">
+          {item.quote}
+        </blockquote>
+      </div>
 
       <button
         type="button"
