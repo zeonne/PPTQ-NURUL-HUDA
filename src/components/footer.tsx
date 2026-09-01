@@ -140,7 +140,6 @@ export function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               className="mt-5 inline-flex text-sm text-primary-foreground/70 transition-colors hover:text-gold"
-              style="text-decoration: underline"
             >
               marifa.id ↗
             </a>
