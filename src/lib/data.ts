@@ -469,15 +469,15 @@ export const testimonials = [
   },
   {
     quote:
-      "Berawal dari pemilihan pondok Al-Qur’an yang bersanad, alhamdulillah menjadi sebuah karunia yang sangat indah bagi kami. Tiga putri kami berhasil menyelesaikan hafalan 30 juz dengan baik. Semua keberhasilan ini tentu tidak lepas dari ketekunan dan kegigihan para asatidz dalam membimbing, serta kehangatan dan kekeluargaan yang kami rasakan dalam pengasuhan para santri.",
-    name: "Nur Aini",
-    role: "Walisantri kelas XI",
+      "Halaqah yang lebih kecil membuat perkembangan setiap santri lebih terpantau. Musyrif juga rutin menyampaikan perkembangan hafalan dan kondisi belajar kepada kami.",
+    name: "Ibu Ratna Widiastuti",
+    role: "Wali santri kelas VIII",
   },
   {
     quote:
-      "Alhamdulillah, kami sebagai alumni Nurul Huda merasakan banyak kebaikan dan perubahan dalam diri kami. Di sini kami tidak hanya belajar ilmu, tetapi juga adab, akhlak, tanggung jawab, kemandirian, dan kedisiplinan. Nurul Huda mengajarkan kami bahwa ilmu harus berjalan bersama adab. Bukan hanya tempat menuntut ilmu, tetapi juga tempat memperbaiki diri dan membentuk karakter. Semoga ilmu dan kebaikan yang kami dapatkan menjadi bekal yang bermanfaat dan terus melekat dalam diri kami di mana pun kami berada.",
-    name: "Asya Karimah",
-    role: "Santriwati alumni angkatan II",
+      "Bekal tahfidz dan bahasa Arab dari Nurul Huda sangat membantu saya lolos seleksi beasiswa dan menjalani kuliah di Kairo.",
+    name: "Muhammad Faruq",
+    role: "Alumni angkatan IX",
   },
 ];
 
