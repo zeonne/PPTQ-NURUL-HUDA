@@ -78,7 +78,7 @@ export function Footer() {
           </ul>
         </div>
 
-        <nav aria-label="Tautan cepat">
+        {/* <nav aria-label="Tautan cepat">
           <h2 className="font-display text-sm font-semibold tracking-wide text-gold uppercase">
             Tautan Cepat
           </h2>
@@ -94,7 +94,7 @@ export function Footer() {
               </li>
             ))}
           </ul>
-        </nav>
+        </nav> */}
 
         <nav aria-label="Program pesantren">
           <h2 className="font-display text-sm font-semibold tracking-wide text-gold uppercase">
@@ -141,6 +141,38 @@ export function Footer() {
           </ul>
         </div>
       </div>
+ 
+      <nav aria-label="Marifa Group">
+        <h2 className="font-display text-sm font-semibold tracking-wide text-gold uppercase">
+          Supported By
+        </h2>
+
+        <div className="mt-5">
+          <div className="flex items-center gap-3">
+            <div className="flex h-12 w-12 items-center justify-center rounded-full border border-gold/30">
+              <span className="text-xl text-gold">M</span>
+            </div>
+
+            <div>
+              <p className="font-display text-lg font-semibold text-primary-foreground">
+                Marifa Group®
+              </p>
+              <p className="mt-1 text-xs text-primary-foreground/60">
+                Konstruksi · Arsitektur · Desain
+              </p>
+            </div>
+          </div>
+
+          <a
+            href="https://www.marifa.id"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-5 inline-flex text-sm text-primary-foreground/70 transition-colors hover:text-gold"
+          >
+            marifa.id ↗
+          </a>
+        </div>
+      </nav>
 
       <div className="border-t border-white/10">
         <div className="container-page flex flex-col gap-2 py-6 text-xs text-primary-foreground/60 sm:flex-row sm:items-center sm:justify-between">
