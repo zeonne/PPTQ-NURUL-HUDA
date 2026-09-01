@@ -156,16 +156,16 @@ export const programs: Program[] = [
     icon: "BookOpenText",
   },
   {
-    slug: "diniyah",
+    slug: "tahsin",
     title: "Tahsin & Tilawah Bersanad",
     tagline: "Membentuk bacaan Al-Qur'an yang benar, tartil, dan terjaga",
     description:
       "Santri mendapatkan pembinaan bacaan Al-Qur'an melalui tahsin, talaqqi, dan bimbingan pembimbing yang memiliki sanad, sehingga proses menghafal dibangun di atas bacaan yang benar.",
-    // duration: "6 tahun · 8 jam pelajaran/pekan",
+    duration: "6 tahun selama mondok",
     benefits: ["Makharijul huruf", "Tajwid", "Tahsin bacaan", "Talaqqi", "Kelancaran dan ketepatan tilawah"],
     activities: ["Talaqqi kitab", "Bahtsul masail santri", "Kajian sirah pekanan", "Praktik ibadah terbimbing"],
     image: mosqueImg,
-    icon: "Moon",
+    icon: "Mosque",
   },
   {
     slug: "akademik",
@@ -173,7 +173,7 @@ export const programs: Program[] = [
     tagline: "Membekali santri dengan dasar ilmu agama yang kokoh",
     description:
       "Pembelajaran diniyah menjadi bagian penting dari pendidikan pesantren untuk membangun pemahaman agama yang benar sekaligus membimbing santri dalam ibadah dan kehidupan sehari-hari.",
-    // duration: "3 tahun per jenjang",
+    duration: "3 tahun per jenjang",
     benefits: ["Aqidah", "Fikih", "Tafsir", "Hadits", "Akhlak dan adab", "Nahwu dan sharaf", "Kitab-kitab diniyah", "Mutun ilmiah"],
     activities: ["Pembelajaran kitab", "Kajian rutin", "Hafalan matan", "Pembahasan materi", "Praktik ibadah"],
     image: classroomImg,
@@ -187,9 +187,9 @@ export const programs: Program[] = [
       "Pendidikan umum dilaksanakan secara terpadu dengan program kepesantrenan agar santri memiliki bekal akademik sekaligus tetap mendapatkan pembinaan Al-Qur'an dan ilmu agama.",
     duration: "Sepanjang masa studi",
     benefits: ["Pendidikan umum", "Literasi dan pengetahuan", "Pembelajaran kesetaraan", "Evaluasi pembelajaran", "Persiapan melanjutkan pendidikan"],
-    activities: ["Mufradat pagi", "Muhadharah tiga bahasa", "English & Arabic Club", "Language camp semesteran"],
+    activities: ["Mufradat malam", "Muhadharah tiga bahasa", "English & Arabic Club", "Language camp semesteran"],
     image: languageImg,
-    icon: "Languages",
+    icon: "book-text",
   },
   {
     slug: "bahasa",
@@ -201,7 +201,7 @@ export const programs: Program[] = [
     benefits: ["Mufradat harian", "Percakapan bahasa", "Pembiasaan bahasa Arab", "Pembiasaan bahasa Inggris", "Pengembangan kemampuan komunikasi"],
     activities: ["Ilqo' mufradat", "Percakapan harian", "Praktik bahasa", "Kegiatan kebahasaan", "Pembiasaan dalam lingkungan pesantren"],
     image: news3,
-    icon: "Compass",
+    icon: "Languages",
   },
   {
     slug: "karakter",
@@ -209,7 +209,7 @@ export const programs: Program[] = [
     tagline: "Membentuk santri yang berakhlak, disiplin, mandiri, dan bertanggung jawab",
     description:
       "Pendidikan pesantren tidak hanya berorientasi pada hafalan dan ilmu, tetapi juga membentuk kebiasaan dan karakter santri melalui kehidupan sehari-hari.",
-    duration: "2 pertemuan per pekan",
+    duration: "Setiap saat",
     benefits: ["Adab kepada Allah", "Adab kepada Al-Qur'an", "Adab kepada orang tua dan guru", "Kedisiplinan", "Kemandirian", "Tanggung jawab", "Khidmah"],
     activities: ["Pembinaan harian", "Kegiatan kebersihan", "Pembiasaan ibadah", "Kegiatan bersama", "Pengabdian"],
     image: sportsImg,
@@ -436,7 +436,7 @@ export const events: EventItem[] = [
   },
   {
     title: "Outing Class",
-    date: "2026-09-21,25",
+    date: "2026-09-21",
     day: "21",
     month: "Sep",
     time: "07.00 – Selesai",
@@ -452,7 +452,7 @@ export const events: EventItem[] = [
   },
   {
     title: "Ujian Tengah Semester",
-    date: "2026-10-01,09",
+    date: "2026-10-01",
     day: "01",
     month: "Okt",
     time: "09.00 – 14.00 WIB",
