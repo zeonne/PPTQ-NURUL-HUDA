@@ -139,7 +139,7 @@ export function Footer() {
               href="https://www.marifa.id"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-5 inline-flex text-sm text-primary-foreground/70 transition-colors hover:text-gold"
+              className="mt-5 inline-flex text-sm text-primary-foreground/70 transition-colors hover:text-gold text-decoration-underline"
             >
               marifa.id ↗
             </a>
