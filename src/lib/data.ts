@@ -458,14 +458,6 @@ export const events: EventItem[] = [
     time: "09.00 – 14.00 WIB",
     place: "Kelas Masing2",
   },
-  {
-    title: "Ujian Tengah Semester",
-    date: "2026-10-01",
-    day: "01–09",
-    month: "Okt",
-    time: "13.00 – 17.00 WIB",
-    place: "Kelas Masing2",
-  },
 ];
 
 export const testimonials = [
