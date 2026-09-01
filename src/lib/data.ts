@@ -189,7 +189,7 @@ export const programs: Program[] = [
     benefits: ["Pendidikan umum", "Literasi dan pengetahuan", "Pembelajaran kesetaraan", "Evaluasi pembelajaran", "Persiapan melanjutkan pendidikan"],
     activities: ["Mufradat malam", "Muhadharah tiga bahasa", "English & Arabic Club", "Language camp semesteran"],
     image: languageImg,
-    icon: "book-text",
+    icon: "BookText",
   },
   {
     slug: "bahasa",
