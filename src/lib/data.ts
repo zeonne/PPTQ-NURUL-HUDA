@@ -436,7 +436,7 @@ export const events: EventItem[] = [
   },
   {
     title: "Outing Class",
-    date: "2026-09-21-25",
+    date: "2026-09-21,25",
     day: "21",
     month: "Sep",
     time: "07.00 – Selesai",
@@ -452,7 +452,7 @@ export const events: EventItem[] = [
   },
   {
     title: "Ujian Tengah Semester",
-    date: "2026-10-01–09",
+    date: "2026-10-01,09",
     day: "01",
     month: "Okt",
     time: "09.00 – 14.00 WIB",
