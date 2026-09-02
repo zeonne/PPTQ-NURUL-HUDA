@@ -9,6 +9,7 @@ import diningImg from "@/assets/dining.jpg";
 import tahfidzImg from "@/assets/tahfidz.jpg";
 import languageImg from "@/assets/language.jpg";
 import campusImg from "@/assets/campus.jpg";
+import news from "@/assets/news.jpg";
 import news1 from "@/assets/news-1.jpg";
 import news2 from "@/assets/news-2.jpg";
 import news3 from "@/assets/news-3.jpg";
@@ -330,7 +331,7 @@ export const news: NewsItem[] = [
     date: "2026-07-19",
     excerpt:
       "Mengenal lebih dekat lingkungan pesantren dan berbagai aktivitas santri dalam keseharian. Mulai dari kegiatan tahfizh, pembelajaran, ibadah, hingga kehidupan bersama di lingkungan PPTQ Nurul Huda.",
-    image: news1,
+    image: news,
     featured: true,
     readMinutes: 4,
   },
