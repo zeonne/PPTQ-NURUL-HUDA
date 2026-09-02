@@ -168,7 +168,7 @@ export function Footer() {
               href="https://www.marifa.id"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-5 inline-flex text-sm text-primary-foreground/70 transition-colors hover:text-gold text-decoration-underline"
+              className="mt-4 inline-flex items-center text-sm text-primary-foreground/75 underline decoration-primary-foreground/40 underline-offset-4 transition-colors hover:text-gold hover:decoration-gold"
             >
               marifa.id ↗
             </a>
