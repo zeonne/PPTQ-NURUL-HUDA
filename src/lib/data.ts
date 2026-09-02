@@ -15,6 +15,7 @@ import news3 from "@/assets/news-3.jpg";
 import principalImg from "@/assets/principal.jpg";
 import tapaksuci from "@/assets/tapaksuci.jpg";
 import NHICImg from "@/assets/NHIC.jpg";
+import Pendaftaran from "@/assets/pendaftaran.jpg";
 
 import type {
   EventItem,
@@ -350,7 +351,7 @@ export const news: NewsItem[] = [
     date: "2026-06-10",
     excerpt:
       "Kedatangan santri baru menjadi awal perjalanan mereka menuntut ilmu dan menghafal Al-Qur'an di PPTQ Nurul Huda. Masa awal pesantren menjadi kesempatan untuk mengenal lingkungan, membangun kebersamaan, dan mulai beradaptasi dengan kehidupan santri.  ",
-    image: news3,
+    image: Pendaftaran,
     readMinutes: 3,
   },
   {
@@ -463,7 +464,7 @@ export const events: EventItem[] = [
 export const testimonials = [
   {
     quote:
-      "Maasyaallah, pembinaan tahfidz di Nurul Huda memang sangat baik. Sebelum mulai menghafal, kami dibekali tahsin langsung oleh ustadzah yang bersanad, dan itu benar-benar jadi bekal yang sangat penting dan sangat Maasyaallah, pembinaan tahfidz di Nurul Huda memang sangat baik. Sebelum mulai menghafal, kami dibekali tahsin langsung oleh ustadzah yang bersanad, dan itu benar-benar jadi bekal yang sangat penting dan sangat berpengaruh pada bacaan serta hafalan kami. Alhamdulillah, bekal itu masih kami rasakan sampai sekarang sebagai Alumni. Insyaallah, ini juga yang menjadi salah satu sebab bacaan dan hafalan para Alumni Nurul Huda tetap terjaga. pada bacaan serta hafalan kami. Alhamdulillah, bekal itu masih kami rasakan sampai sekarang sebagai Alumni. Insyaallah, ini juga yang menjadi salah satu sebab bacaan dan hafalan para Alumni Nurul Huda tetap terjaga.",
+      "Maasyaallah, pembinaan tahfidz di Nurul Huda memang sangat baik. Sebelum mulai menghafal, kami dibekali tahsin langsung oleh ustadzah yang bersanad, dan itu benar-benar jadi bekal yang sangat penting dan sangat ber-atsar pada bacaan serta hafalan kami. Alhamdulillah, bekal itu masih kami rasakan sampai sekarang sebagai Alumni. Insyaallah, ini juga yang menjadi salah satu sebab bacaan dan hafalan para Alumni Nurul Huda tetap terjaga.",
     name: "Hilya",
     role: "Santriwati alumni angkatan I",
   },
