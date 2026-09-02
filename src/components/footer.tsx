@@ -115,6 +115,35 @@ export function Footer() {
         </nav>
 
         <nav aria-label="Marifa Group">
+          
+
+          <h2 className="font-display text-sm font-semibold tracking-wide text-gold uppercase">
+            Kontak
+          </h2>
+          <ul className="mt-5 space-y-4 text-sm text-primary-foreground/75">
+            <li className="flex gap-3">
+              <MapPin className="mt-0.5 size-4 shrink-0 text-gold" aria-hidden="true" />
+              <span>{school.address}</span>
+            </li>
+            <li className="flex gap-3">
+              <Phone className="mt-0.5 size-4 shrink-0 text-gold" aria-hidden="true" />
+              <a
+                href={`tel:${school.phone.replace(/[^\d+]/g, "")}`}
+                className="transition-colors hover:text-gold"
+              >
+                {school.phone}
+              </a>
+            </li>
+            <li className="flex gap-3">
+              <Mail className="mt-0.5 size-4 shrink-0 text-gold" aria-hidden="true" />
+              <a href={`mailto:${school.email}`} className="transition-colors hover:text-gold">
+                {school.email}
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div>
           <h2 className="font-display text-sm font-semibold tracking-wide text-gold uppercase">
             Supported By
           </h2>
@@ -144,33 +173,6 @@ export function Footer() {
               marifa.id ↗
             </a>
           </div>
-        </nav>
-
-        <div>
-          <h2 className="font-display text-sm font-semibold tracking-wide text-gold uppercase">
-            Kontak
-          </h2>
-          <ul className="mt-5 space-y-4 text-sm text-primary-foreground/75">
-            <li className="flex gap-3">
-              <MapPin className="mt-0.5 size-4 shrink-0 text-gold" aria-hidden="true" />
-              <span>{school.address}</span>
-            </li>
-            <li className="flex gap-3">
-              <Phone className="mt-0.5 size-4 shrink-0 text-gold" aria-hidden="true" />
-              <a
-                href={`tel:${school.phone.replace(/[^\d+]/g, "")}`}
-                className="transition-colors hover:text-gold"
-              >
-                {school.phone}
-              </a>
-            </li>
-            <li className="flex gap-3">
-              <Mail className="mt-0.5 size-4 shrink-0 text-gold" aria-hidden="true" />
-              <a href={`mailto:${school.email}`} className="transition-colors hover:text-gold">
-                {school.email}
-              </a>
-            </li>
-          </ul>
         </div>
       </div>
 

@@ -96,7 +96,7 @@ export const stats = [
   { label: "Santri Aktif", value: 188, suffix: "", description: "Putra & putri jenjang SMP–SMA" },
   { label: "Asatidz & Guru", value: 34, suffix: "", description: "Hafidz/ah, sarjana diniyah & umum" },
   { label: "Alumni", value: 39, suffix: "", description: "Lulusan 3 angkatan" },
-  { label: "Santri Hafidz/ah", value: 46, suffix: "", description: "Selesai Hafalan 30Juz" },
+  { label: "Santri Hafidz/ah", value: 47, suffix: "", description: "Selesai Hafalan 30Juz" },
 ];
 
 export const advantages = [
