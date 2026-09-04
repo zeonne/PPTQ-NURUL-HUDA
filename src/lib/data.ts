@@ -17,6 +17,8 @@ import principalImg from "@/assets/principal.jpg";
 import tapaksuci from "@/assets/tapaksuci.jpg";
 import NHICImg from "@/assets/NHIC.jpg";
 import Pendaftaran from "@/assets/pendaftaran.jpg";
+import ingImg from "@/assets/ing.jpg";
+import diniyahImg from "@/assets/diniyah.jpg";
 
 import type {
   EventItem,
@@ -165,7 +167,7 @@ export const programs: Program[] = [
       "Santri mendapatkan pembinaan bacaan Al-Qur'an melalui tahsin, talaqqi, dan bimbingan pembimbing yang memiliki sanad, sehingga proses menghafal dibangun di atas bacaan yang benar.",
     duration: "6 tahun selama mondok",
     benefits: ["Makharijul huruf", "Tajwid", "Tahsin bacaan", "Talaqqi", "Kelancaran dan ketepatan tilawah"],
-    activities: ["Talaqqi kitab", "Bahtsul masail santri", "Kajian sirah pekanan", "Praktik ibadah terbimbing"],
+    activities: ["Talaqqi Al-Qur’an", "Setoran bacaan", "Latihan tilawah", "Perbaikan tajwid & makhari", "Evaluasi bacaan berkala"],
     image: mosqueImg,
     icon: "Mosque",
   },
@@ -178,7 +180,7 @@ export const programs: Program[] = [
     duration: "3 tahun per jenjang",
     benefits: ["Aqidah", "Fikih", "Tafsir", "Hadits", "Akhlak dan adab", "Nahwu dan sharaf", "Kitab-kitab diniyah", "Mutun ilmiah"],
     activities: ["Pembelajaran kitab", "Kajian rutin", "Hafalan matan", "Pembahasan materi", "Praktik ibadah"],
-    image: classroomImg,
+    image: diniyahImg,
     icon: "GraduationCap",
   },
   {
@@ -190,7 +192,7 @@ export const programs: Program[] = [
     duration: "Sepanjang masa studi",
     benefits: ["Pendidikan umum", "Literasi dan pengetahuan", "Pembelajaran kesetaraan", "Evaluasi pembelajaran", "Persiapan melanjutkan pendidikan"],
     activities: ["Mufradat malam", "Muhadharah tiga bahasa", "English & Arabic Club", "Language camp semesteran"],
-    image: languageImg,
+    image: classroomImg,
     icon: "BookText",
   },
   {
@@ -202,7 +204,7 @@ export const programs: Program[] = [
     duration: "Program tahunan berjenjang",
     benefits: ["Mufradat harian", "Percakapan bahasa", "Pembiasaan bahasa Arab", "Pembiasaan bahasa Inggris", "Pengembangan kemampuan komunikasi"],
     activities: ["Ilqo' mufradat", "Percakapan harian", "Praktik bahasa", "Kegiatan kebahasaan", "Pembiasaan dalam lingkungan pesantren"],
-    image: news3,
+    image: ingImg,
     icon: "Languages",
   },
   {
