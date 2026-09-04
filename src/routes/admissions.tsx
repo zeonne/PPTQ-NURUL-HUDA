@@ -169,12 +169,12 @@ function AdmissionsPage() {
           </div>
         </Reveal>
         <Reveal className="mt-6 flex flex-wrap gap-3">
-          <Button asChild variant="outline">
+          {/* <Button asChild variant="outline">
             <a href={`mailto:${school.admissionEmail}`}>
               <Download aria-hidden="true" />
               Minta brosur lengkap
             </a>
-          </Button>
+          </Button> */}
           <span className="text-xs text-muted-foreground sm:self-center">
             Rincian biaya dapat disampaikan lebih lengkap oleh panitia PSB kepada calon santri dan wali santri pada saat proses pendaftaran.
           </span>
