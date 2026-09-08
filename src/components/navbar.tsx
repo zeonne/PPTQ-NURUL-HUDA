@@ -208,23 +208,22 @@ export function Navbar() {
               </ul>
 
               <div className="mt-6 space-y-3">
-              <Button asChild className="w-full">
-                <a
-                  href="https://forms.gle/RS9JLvqeLXFKcgpL9"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Daftar Sekarang
-                </a>
-              </Button>
-
-              <Button asChild variant="outline" className="w-full">
-                <a href={`tel:${school.phone.replace(/[^\d+]/g, "")}`}>
-                  <Phone aria-hidden="true" />
-                  {school.phone}
-                </a>
-              </Button>
-            </div>
+                <Button asChild className="w-full">
+                  <a
+                    href="https://forms.gle/RS9JLvqeLXFKcgpL9"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Daftar Sekarang
+                  </a>
+                </Button>
+                <Button asChild variant="outline" className="w-full">
+                  <a href={`tel:${school.phone.replace(/[^\d+]/g, "")}`}>
+                    <Phone aria-hidden="true" />
+                    {school.phone}
+                  </a>
+                </Button>
+              </div>
             </motion.div>
           </motion.div>
         ) : null}

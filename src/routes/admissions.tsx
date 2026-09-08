@@ -48,12 +48,11 @@ function AdmissionsPage() {
       >
         <Button asChild variant="gold">
           <a
-            href={`https://wa.me/${school.whatsapp}?text=Assalamualaikum,%20saya%20ingin%20mendaftar%20PSB%20Nurul%20Huda`}
+            href="https://forms.gle/RS9JLvqeLXFKcgpL9"
             target="_blank"
-            rel="noreferrer noopener"
+            rel="noopener noreferrer"
           >
-            <MessageCircle aria-hidden="true" />
-            Daftar via WhatsApp
+            Daftar Sekarang
           </a>
         </Button>
         <Button asChild variant="hero">
