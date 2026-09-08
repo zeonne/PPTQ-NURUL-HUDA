@@ -21,6 +21,7 @@ import ingImg from "@/assets/ing.jpg";
 import diniyahImg from "@/assets/diniyah.jpg";
 import halaqohImg from "@/assets/halaqohbig.jpg";
 import rihlahImg from "@/assets/rihlah.jpg";
+import penerimaanImg from "@/assets/penerimaan.jpg";
 
 import type {
   EventItem,
@@ -366,7 +367,7 @@ export const news: NewsItem[] = [
     date: "2026-09-1",
     excerpt:
       "Gelombang pertama dibuka mulai 1 September 2026 dengan kuota terbatas untuk jenjang SMP dan SMA putra maupun putri.",
-    image: campusImg,
+    image: penerimaanImg,
     readMinutes: 2,
   },
   {
