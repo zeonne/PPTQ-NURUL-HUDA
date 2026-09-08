@@ -5,7 +5,7 @@ export function WhatsAppFloat() {
   return (
     <a
       href={`https://wa.me/${school.whatsapp}?text=${encodeURIComponent(
-        "Assalamu'alaikum, saya ingin bertanya mengenai pendaftaran santri baru PPTQ Nurul Huda.",
+        "PPTQ Nurul Huda Magetan. ",
       )}`}
       target="_blank"
       rel="noreferrer"
