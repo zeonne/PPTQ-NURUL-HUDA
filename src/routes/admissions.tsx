@@ -176,7 +176,7 @@ function AdmissionsPage() {
             </a>
           </Button> */}
           <span className="text-xs text-muted-foreground sm:self-center">
-            Rincian biaya dapat disampaikan lebih lengkap oleh panitia PSB kepada calon santri dan wali santri pada saat proses pendaftaran.
+            Note: Rincian biaya dapat disampaikan lebih lengkap oleh panitia PSB kepada calon santri dan wali santri pada saat proses pendaftaran.
           </span>
         </Reveal>
       </section>
