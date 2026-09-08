@@ -19,6 +19,7 @@ import NHICImg from "@/assets/NHIC.jpg";
 import Pendaftaran from "@/assets/pendaftaran.jpg";
 import ingImg from "@/assets/ing.jpg";
 import diniyahImg from "@/assets/diniyah.jpg";
+import halaqohImg from "@/assets/halaqohbig.jpg";
 
 import type {
   EventItem,
@@ -414,7 +415,7 @@ export const news: NewsItem[] = [
     date: "2026-02-27",
     excerpt:
       "PPTQ Nurul Huda merupakan lembaga pendidikan yang memadukan pembelajaran, pembinaan karakter, dan pendidikan Al-Qur'an dalam kehidupan pesantren. Kenali lebih dekat lingkungan, nilai, program, dan kehidupan santri di PPTQ Nurul Huda.",
-    image: libraryImg,
+    image: campusImg,
     readMinutes: 2,
   },
   {
@@ -424,7 +425,7 @@ export const news: NewsItem[] = [
     date: "2026-02-09",
     excerpt:
       "Mengenal program tahfizh Al-Qur'an yang menjadi salah satu fokus utama pendidikan di PPTQ Nurul Huda. Santri dibimbing dalam proses menghafal, menjaga hafalan, memperbaiki bacaan, dan membangun kedekatan dengan Al-Qur'an.",
-    image: dormitoryImg,
+    image: halaqohImg,
     readMinutes: 5,
   },
 ];
