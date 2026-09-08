@@ -20,6 +20,7 @@ import Pendaftaran from "@/assets/pendaftaran.jpg";
 import ingImg from "@/assets/ing.jpg";
 import diniyahImg from "@/assets/diniyah.jpg";
 import halaqohImg from "@/assets/halaqohbig.jpg";
+import rihlahImg from "@/assets/rihlah.jpg";
 
 import type {
   EventItem,
@@ -506,6 +507,7 @@ export const gallery: GalleryItem[] = [
   { title: "Muhadharah Tiga Bahasa", category: "Kegiatan", image: languageImg, type: "photo" },
   { title: "Laboratorium Komputer", category: "Fasilitas", image: computerLabImg, type: "photo" },
   { title: "Gerakan Santri Menanam", category: "Kegiatan", image: news3, type: "photo" },
+  { title: "Rihlah", category: "Kegiatan", image: rihlahImg, type: "photo" },
   {
     title: "Profil Pesantren Nurul Huda",
     category: "Kegiatan",
