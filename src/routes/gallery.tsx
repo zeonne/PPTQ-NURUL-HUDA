@@ -33,6 +33,22 @@ export const Route = createFileRoute("/gallery")({
 });
 
 function getVideoEmbedUrl(url: string) {
+  // YouTube
+  if (url.includes("youtube.com") || url.includes("youtu.be")) {
+    if (url.includes("/embed/")) {
+      return url;
+    }
+
+    const match =
+      url.match(/youtube\.com\/watch\?v=([^&]+)/) ||
+      url.match(/youtu\.be\/([^?]+)/);
+
+    if (match?.[1]) {
+      return `https://www.youtube.com/embed/${match[1]}`;
+    }
+  }
+
+  // Instagram Reel
   if (url.includes("instagram.com/reel/")) {
     const match = url.match(/instagram\.com\/reel\/([^/?]+)/);
 
@@ -41,6 +57,26 @@ function getVideoEmbedUrl(url: string) {
     }
   }
 
+  // TikTok
+  if (url.includes("tiktok.com")) {
+    const match = url.match(/\/video\/(\d+)/);
+
+    if (match?.[1]) {
+      return `https://www.tiktok.com/player/v1/${match[1]}`;
+    }
+  }
+
+  // Facebook Video / Reel
+  if (url.includes("facebook.com")) {
+    return `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(url)}&show_text=false&width=560`;
+  }
+
+  // URL video langsung seperti .mp4
+  if (/\.(mp4|webm|ogg)(\?.*)?$/i.test(url)) {
+    return url;
+  }
+
+  // Fallback
   return url;
 }
 
@@ -97,16 +133,25 @@ function GalleryPage() {
           </DialogTitle>
 
           {selected?.type === "video" && selected.videoUrl ? (
-            <div className="aspect-video w-full">
-              <iframe
-                src={getVideoEmbedUrl(selected.videoUrl)}
-                title={selected.title}
-                allow="autoplay; encrypted-media; picture-in-picture"
-                allowFullScreen
-                className="size-full border-0"
-              />
-            </div>
-          ) : selected ? (
+              <div className="aspect-video w-full bg-black">
+                {/\.(mp4|webm|ogg)(\?.*)?$/i.test(selected.videoUrl) ? (
+                  <video
+                    src={selected.videoUrl}
+                    controls
+                    playsInline
+                    className="size-full object-contain"
+                  />
+                ) : (
+                  <iframe
+                    src={getVideoEmbedUrl(selected.videoUrl)}
+                    title={selected.title}
+                    allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+                    allowFullScreen
+                    className="size-full border-0"
+                  />
+                )}
+              </div>
+            ) : selected ? (
             <img
               src={selected.image}
               alt={selected.title}
