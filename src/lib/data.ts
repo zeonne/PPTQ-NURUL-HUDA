@@ -387,7 +387,7 @@ export const news: NewsItem[] = [
     date: "2026-04-22",
     excerpt:
       "Rihlah menjadi bagian dari kehidupan pesantren untuk memberikan suasana yang berbeda setelah menjalani rutinitas pendidikan. Kegiatan ini menjadi sarana rekreasi sekaligus mempererat ukhuwah dan kebersamaan antarsantri.",
-    image: computerLabImg,
+    image: rihlahImg,
     readMinutes: 3,
   },
   {
@@ -500,7 +500,7 @@ export const partners = [
 export const gallery: GalleryItem[] = [
   { title: "Halaqah Tahfizh", category: "Kegiatan", image: tahfidzImg, type: "photo" },
   { title: "Masjid Pesantren", category: "Fasilitas", image: mosqueImg, type: "photo" },
-  { title: "Wisuda Tahfidz Angkatan XII", category: "Prestasi", image: news1, type: "photo" },
+  { title: "Wisuda Tahfidz Angkatan XII", category: "Prestasi", image: news1, type: "video", videoUrl: "https://www.instagram.com/reel/DatfSsdBWZB/?stkn=MWhhZjBwb29wM2U1aA==", },
   { title: "Kamar Asrama Santri", category: "Asrama", image: dormitoryImg, type: "photo" },
   { title: "Prestasi Santri", category: "Prestasi", image: libraryImg, type: "photo" },
   { title: "Kegiatan Silat Santri", category: "Kegiatan", image: tapaksuci, type: "photo" },
