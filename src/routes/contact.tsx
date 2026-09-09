@@ -122,7 +122,7 @@ function ContactPage() {
             Lokasi pesantren
           </h2>
           <p className="mt-2 text-sm text-muted-foreground">
-            Berjarak sekitar 15 menit dari pintu keluar Tol Cibubur–Cileungsi.
+            Tidak jauh dengan perbatasan Magetan-Madiun.
           </p>
           <Reveal className="mt-6 overflow-hidden rounded-[1.75rem] border border-border">
             <iframe
