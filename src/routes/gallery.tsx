@@ -32,6 +32,18 @@ export const Route = createFileRoute("/gallery")({
   component: GalleryPage,
 });
 
+function getVideoEmbedUrl(url: string) {
+  if (url.includes("instagram.com/reel/")) {
+    const match = url.match(/instagram\.com\/reel\/([^/?]+)/);
+
+    if (match?.[1]) {
+      return `https://www.instagram.com/reel/${match[1]}/embed`;
+    }
+  }
+
+  return url;
+}
+
 function GalleryPage() {
   const [active, setActive] = useState<(typeof categories)[number]>("Semua");
   const [selected, setSelected] = useState<GalleryItem | null>(null);
@@ -80,13 +92,16 @@ function GalleryPage() {
 
       <Dialog open={selected !== null} onOpenChange={(open) => !open && setSelected(null)}>
         <DialogContent className="max-w-3xl overflow-hidden p-0">
-          <DialogTitle className="px-6 pt-6 font-display text-lg">{selected?.title}</DialogTitle>
+          <DialogTitle className="px-6 pt-6 font-display text-lg">
+            {selected?.title}
+          </DialogTitle>
+
           {selected?.type === "video" && selected.videoUrl ? (
             <div className="aspect-video w-full">
               <iframe
-                src={selected.videoUrl}
+                src={getVideoEmbedUrl(selected.videoUrl)}
                 title={selected.title}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
+                allow="autoplay; encrypted-media; picture-in-picture"
                 allowFullScreen
                 className="size-full border-0"
               />
@@ -100,7 +115,10 @@ function GalleryPage() {
               className="w-full object-cover"
             />
           ) : null}
-          <p className="px-6 pb-6 text-xs text-muted-foreground">{selected?.category}</p>
+
+          <p className="px-6 pb-6 text-xs text-muted-foreground">
+            {selected?.category}
+          </p>
         </DialogContent>
       </Dialog>
     </PageTransition>
