@@ -49,7 +49,7 @@ export function ContactForm() {
           whatsappMessage,
         )}`;
         //Membuka WA admin
-        window.open(whatsappUrl, "_blank");
+        window.location.href = whatsappUrl;
 
         //Mengosongi isi form after kirim pesan
         form.reset();
