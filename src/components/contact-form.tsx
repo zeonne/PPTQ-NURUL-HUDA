@@ -45,7 +45,7 @@ export function ContactForm() {
 
       Terima kasihh.`;
 
-        const whatsappUrl = `https://wa.me/6282338832018?text=${encodeURIComponent(
+        const whatsappUrl = `https://wa.me/6285335338181?text=${encodeURIComponent(
           whatsappMessage,
         )}`;
 
