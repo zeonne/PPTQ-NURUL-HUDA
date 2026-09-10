@@ -107,7 +107,7 @@ function ContactPage() {
             <div className="surface-card p-7 hover:translate-y-0 sm:p-9">
               <h3 className="font-display text-2xl font-semibold">Kirim pesan</h3>
               <p className="mt-2 text-sm text-muted-foreground">
-                Isi formulir berikut dan panitia kami akan menghubungi Anda pada hari kerja.
+                Isi formulir berikut dan kami akan menghubungi Anda pada hari kerja.
               </p>
               <div className="mt-6">
                 <ContactForm />

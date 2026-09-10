@@ -23,16 +23,47 @@ export function ContactForm() {
       className="surface-card space-y-5 p-7 hover:translate-y-0 sm:p-9"
       onSubmit={(event) => {
         event.preventDefault();
+
         const form = event.currentTarget;
-        setSubmitting(true);
-        window.setTimeout(() => {
-          setSubmitting(false);
-          form.reset();
-          toast.success("Pesan terkirim", {
-            description: "Kami akan menghubungi Anda pada hari kerja berikutnya.",
-          });
-        }, 700);
+        const formData = new FormData(form);
+
+        const name = String(formData.get("name") || "");
+        const phone = String(formData.get("phone") || "");
+        const email = String(formData.get("email") || "");
+        const topic = String(formData.get("topic") || "");
+        const message = String(formData.get("message") || "");
+
+        const whatsappMessage = `Assalamu'alaikum Admin PPTQ Nurul Huda,
+
+          Nama lengkap: ${name}
+          Nomor WhatsApp: ${phone}
+          Email: ${email}
+          Topik pertanyaan: ${topic}
+
+          Pesan:
+          ${message}
+
+          Terima kasih.`;
+
+        const whatsappUrl = `https://wa.me/6282338832018?text=${encodeURIComponent(
+          whatsappMessage,
+        )}`;
+
+        window.open(whatsappUrl, "_blank");
       }}
+
+      // onSubmit={(event) => {
+      //   event.preventDefault();
+      //   const form = event.currentTarget;
+      //   setSubmitting(true);
+      //   window.setTimeout(() => {
+      //     setSubmitting(false);
+      //     form.reset();
+      //     toast.success("Pesan terkirim", {
+      //       description: "Kami akan menghubungi Anda pada hari kerja berikutnya.",
+      //     });
+      //   }, 700);
+      // }}
     >
       <div className="grid gap-5 sm:grid-cols-2">
         <div className="space-y-2">
