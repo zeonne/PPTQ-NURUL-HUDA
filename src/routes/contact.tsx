@@ -36,8 +36,8 @@ function ContactPage() {
     {
       icon: MessageCircle,
       label: "WhatsApp",
-      value: '082338832018',
-      href: `https://wa.me/082338832018`,
+      value: '+62 823-3883-2018',
+      href: `https://wa.me/6282338832018`,
     },
     { icon: Mail, label: "Email", value: school.email, href: `mailto:${school.email}` },
     { icon: Clock, label: "Jam Layanan", value: school.hours },
