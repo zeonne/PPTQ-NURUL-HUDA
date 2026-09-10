@@ -8,10 +8,10 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 
 const topics = [
-  "Pendaftaran santri baru",
-  "Program tahfidz",
-  "Biaya pendidikan",
-  "Kunjungan kampus",
+  "Pendaftaran santri baru Nurul Huda",
+  "Program tahfidz di pondok NH",
+  "Biaya pendidikan pojdok NH",
+  "Kunjungan pondok NH",
   "Lainnya",
 ];
 
@@ -35,21 +35,24 @@ export function ContactForm() {
 
         const whatsappMessage = `Assalamu'alaikum Admin PPTQ Nurul Huda,
 
-          Nama lengkap: ${name}
-          Nomor WhatsApp: ${phone}
-          Email: ${email}
-          Topik pertanyaan: ${topic}
+      Nama lengkap: ${name}
+      Nomor WhatsApp: ${phone}
+      Email: ${email}
+      Topik pertanyaan: ${topic}
 
-          Pesan:
-          ${message}
+      Pesan:
+      ${message}
 
-          Terima kasih.`;
+      Terima kasihh.`;
 
         const whatsappUrl = `https://wa.me/6282338832018?text=${encodeURIComponent(
           whatsappMessage,
         )}`;
-
+        //Membuka WA admin
         window.open(whatsappUrl, "_blank");
+
+        //Mengosongi isi form after kirim pesan
+        form.reset();
       }}
 
       // onSubmit={(event) => {
