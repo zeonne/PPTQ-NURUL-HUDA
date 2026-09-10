@@ -49,8 +49,9 @@ export function ContactForm() {
           whatsappMessage,
         )}`;
         //Membuka WA admin
+        form.reset();
+        
         const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-
         if (isMobile) {
           window.location.href = whatsappUrl;
         } else {
@@ -62,6 +63,8 @@ export function ContactForm() {
           document.body.appendChild(link);
           link.click();
           document.body.removeChild(link);
+
+          
         }
       }}
 
