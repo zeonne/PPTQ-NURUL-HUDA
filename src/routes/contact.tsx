@@ -31,7 +31,8 @@ export const Route = createFileRoute("/contact")({
 function ContactPage() {
   const details = [
     { icon: MapPin, label: "Alamat", value: school.address },
-    { icon: Phone, label: "Telepon", value: school.phone, href: `tel:085335338181` },
+    // { icon: Phone, label: "Telepon", value: school.phone, href: `tel:${school.phone.replace(/\s/g, "")}` },
+    { icon: Phone, label: "Telepon", value: '085335338181', href: `tel:085335338181` },
     {
       icon: MessageCircle,
       label: "WhatsApp",
