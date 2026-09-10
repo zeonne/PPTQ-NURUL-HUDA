@@ -49,10 +49,20 @@ export function ContactForm() {
           whatsappMessage,
         )}`;
         //Membuka WA admin
-        window.location.href = whatsappUrl;
+        const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
-        //Mengosongi isi form after kirim pesan
-        form.reset();
+        if (isMobile) {
+          window.location.href = whatsappUrl;
+        } else {
+          const link = document.createElement("a");
+          link.href = whatsappUrl;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+        }
       }}
 
       // onSubmit={(event) => {
