@@ -48,9 +48,10 @@ export function ContactForm() {
         const whatsappUrl = `https://wa.me/6282338832018?text=${encodeURIComponent(
           whatsappMessage,
         )}`;
-        //Membuka WA admin
+
         form.reset();
         
+        //Membuka WA admin
         const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
         if (isMobile) {
           window.location.href = whatsappUrl;
@@ -64,7 +65,7 @@ export function ContactForm() {
           link.click();
           document.body.removeChild(link);
 
-          
+          form.reset();
         }
       }}
 
