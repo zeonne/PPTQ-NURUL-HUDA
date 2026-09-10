@@ -115,8 +115,6 @@ export function Footer() {
         </nav>
 
         <nav aria-label="Marifa Group">
-          
-
           <h2 className="font-display text-sm font-semibold tracking-wide text-gold uppercase">
             Kontak
           </h2>

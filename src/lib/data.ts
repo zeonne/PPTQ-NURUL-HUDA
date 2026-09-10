@@ -42,9 +42,9 @@ export const school = {
   description:
     "Lembaga pendidikan Islam berasrama yang memadukan tahfizhul Qur’an, pendidikan diniyah, dan pendidikan umum dalam lingkungan yang tertib, sederhana, dan berorientasi pada pembentukan karakter.",
   address: "Dusun Secikal, RT/RW 04/01, Kenongomulyo, Nguntoronadi, Magetan, Jawa Timur, 63383.",
-  phone: "0823 3883 2018",
-  whatsapp: "6282338832018",
-  whatsappDisplay: "+62 823-3883-2018",
+  phone: "0853 3533 8181",
+  whatsapp: "6285335338181",
+  whatsappDisplay: "+62 853-3533-8181",
   email: "pptq.nurulhuda1@gmail.com",
   admissionEmail: "pptq.nurulhuda1@gmail.com",
   hours: "Senin – Sabtu · 08.00 – 16.00 WIB",
