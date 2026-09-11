@@ -154,22 +154,30 @@ export function Footer() {
 
               <div>
                 <p className="font-display text-lg font-semibold text-primary-foreground">
-                  Marifa Group®
+                  <a
+                    href="https://www.marifa.id"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transition-colors hover:text-gold"
+                  >
+                    Marifa® Group
+                  </a>
                 </p>
-                <p className="mt-1 text-xs text-primary-foreground/60">
+
+                {/* <p className="mt-1 text-xs text-primary-foreground/60">
                   Konstruksi · Arsitektur · Desain
-                </p>
+                </p> */}
               </div>
             </div>
 
-            <a
+            {/* <a
               href="https://www.marifa.id"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 inline-flex items-center text-sm text-primary-foreground/75 underline decoration-primary-foreground/40 underline-offset-4 transition-colors hover:text-gold hover:decoration-gold"
             >
               marifa.id ↗
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
