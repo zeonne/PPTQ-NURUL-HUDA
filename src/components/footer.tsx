@@ -153,7 +153,7 @@ export function Footer() {
               </div> */}
 
               <div>
-                <p className="mt-5 max-w-xs text-sm leading-relaxed text-primary-foreground/70">
+                <p className="mt-5 space-y-4 text-sm text-primary-foreground/75">
                   <a
                     href="https://www.marifa.id"
                     target="_blank"
