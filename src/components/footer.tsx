@@ -148,9 +148,9 @@ export function Footer() {
 
           <div className="mt-5">
             <div className="flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full border border-gold/30">
+              {/* <div className="flex h-12 w-12 items-center justify-center rounded-full border border-gold/30">
                 <span className="text-xl text-gold">M</span>
-              </div>
+              </div> */}
 
               <div>
                 <p className="font-display text-lg font-semibold text-primary-foreground">
