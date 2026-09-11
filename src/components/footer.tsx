@@ -153,7 +153,7 @@ export function Footer() {
               </div> */}
 
               <div>
-                <p className="font-display text-lg font-semibold text-primary-foreground">
+                <p className="mt-5 max-w-xs text-sm leading-relaxed text-primary-foreground/70">
                   <a
                     href="https://www.marifa.id"
                     target="_blank"
@@ -164,9 +164,9 @@ export function Footer() {
                   </a>
                 </p>
 
-                <p className="mt-1 text-xs text-primary-foreground/60">
+                {/* <p className="mt-1 text-xs text-primary-foreground/60">
                   Kontraktor • Arsitek • Interior • Developer
-                </p>
+                </p> */}
               </div>
             </div>
 
