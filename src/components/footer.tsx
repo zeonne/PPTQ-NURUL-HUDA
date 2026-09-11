@@ -164,9 +164,9 @@ export function Footer() {
                   </a>
                 </p>
 
-                {/* <p className="mt-1 text-xs text-primary-foreground/60">
-                  Konstruksi · Arsitektur · Desain
-                </p> */}
+                <p className="mt-1 text-xs text-primary-foreground/60">
+                  Kontraktor • Arsitek • Interior • Developer
+                </p>
               </div>
             </div>
 
