@@ -147,7 +147,7 @@ export function Footer() {
           </h2>
 
           <div className="mt-5">
-            <div className="flex items-center gap-3">
+            {/* <div className="flex items-center gap-3"> */}
               {/* <div className="flex h-12 w-12 items-center justify-center rounded-full border border-gold/30">
                 <span className="text-xl text-gold">M</span>
               </div> */}
@@ -168,7 +168,7 @@ export function Footer() {
                   Kontraktor • Arsitek • Interior • Developer
                 </p> */}
               </div>
-            </div>
+            {/* </div> */}
 
             {/* <a
               href="https://www.marifa.id"
