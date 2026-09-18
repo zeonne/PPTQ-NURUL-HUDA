@@ -22,6 +22,7 @@ import diniyahImg from "@/assets/diniyah.jpg";
 import halaqohImg from "@/assets/halaqohbig.jpg";
 import rihlahImg from "@/assets/rihlah.jpg";
 import penerimaanImg from "@/assets/penerimaan.jpg";
+import halaqohluarImg from "@/assets/halaqoh-luar.jpg";
 
 import type {
   EventItem,
@@ -347,7 +348,7 @@ export const news: NewsItem[] = [
     date: "2026-06-28",
     excerpt:
       "Santriwati baru mengawali perjalanan pendidikan Al-Qur'an melalui pembinaan tahsin dan perbaikan bacaan. Tahsin menjadi bagian penting sebelum santri melangkah lebih jauh dalam menghafal dan menjaga hafalan Al-Qur'an.",
-    image: news2,
+    image: halaqohluarImg,
     readMinutes: 3,
   },
   {
