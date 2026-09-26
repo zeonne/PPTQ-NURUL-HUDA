@@ -23,6 +23,7 @@ import halaqohImg from "@/assets/halaqohbig.jpg";
 import rihlahImg from "@/assets/rihlah.jpg";
 import penerimaanImg from "@/assets/penerimaan.jpg";
 import halaqohluarImg from "@/assets/halaqoh-luar.jpg";
+import prestasiImg from "@/assets/prestasi.jpg";
 
 import type {
   EventItem,
@@ -503,7 +504,7 @@ export const gallery: GalleryItem[] = [
   { title: "Masjid Pesantren", category: "Fasilitas", image: mosqueImg, type: "photo" },
   { title: "Wisuda Tahfidz Angkatan XII", category: "Prestasi", image: news1, type: "video", videoUrl: "https://www.instagram.com/reel/DatfSsdBWZB/", },
   { title: "Kamar Asrama Santri", category: "Asrama", image: dormitoryImg, type: "photo" },
-  { title: "Prestasi Santri", category: "Prestasi", image: libraryImg, type: "photo" },
+  { title: "Prestasi Santri", category: "Prestasi", image: prestasiImg, type: "photo" },
   { title: "Kegiatan Silat Santri", category: "Kegiatan", image: tapaksuci, type: "photo" },
   { title: "Kegiatan Belajar Santri Putri", category: "Kegiatan", image: news2, type: "photo" },
   { title: "Muhadharah Tiga Bahasa", category: "Kegiatan", image: languageImg, type: "photo" },
