@@ -40,7 +40,8 @@ import type {
 export const school = {
   name: "Pondok Pesantren Tahfizhul Qur'an Nurul Huda Magetan",
   shortName: "PPTQ Nurul Huda Magetan",
-  tagline: "Mencetak generasi Qur’ani yang berilmu, berakhlak, dan beramal sesuai manhaj Ahlus Sunnah wal Jama’ah.",
+  tagline:
+    "Mencetak generasi Qur’ani yang berilmu, berakhlak, dan beramal sesuai manhaj Ahlus Sunnah wal Jama’ah.",
   description:
     "Lembaga pendidikan Islam berasrama yang memadukan tahfizhul Qur’an, pendidikan diniyah, dan pendidikan umum dalam lingkungan yang tertib, sederhana, dan berorientasi pada pembentukan karakter.",
   address: "Dusun Secikal, RT/RW 04/01, Kenongomulyo, Nguntoronadi, Magetan, Jawa Timur, 63383.",
@@ -82,7 +83,6 @@ export const navItems: NavItem[] = [
     to: "/about",
     children: [
       { label: "Tentang Kami", to: "/about", description: "Sejarah, visi, misi, dan nilai" },
-      // { label: "Dewan Guru", to: "/teachers", description: "Asatidz pengampu dan pembimbing" },
       { label: "Fasilitas", to: "/facilities", description: "Sarana belajar dan asrama" },
     ],
   },
@@ -93,6 +93,11 @@ export const navItems: NavItem[] = [
     children: [
       { label: "Berita", to: "/news", description: "Kabar terbaru dari pesantren" },
       { label: "Galeri", to: "/gallery", description: "Foto dan video kegiatan" },
+      {
+        label: "Progres Santri",
+        to: "/teachers",
+        description: "Pantau perkembangan dan layanan digital santri",
+      },
     ],
   },
   { label: "PSB", to: "/admissions" },
@@ -101,7 +106,12 @@ export const navItems: NavItem[] = [
 
 export const stats = [
   { label: "Santri Aktif", value: 188, suffix: "", description: "Putra & putri jenjang SMP–SMA" },
-  { label: "Asatidz & Guru", value: 34, suffix: "", description: "Hafidz/ah, sarjana diniyah & umum" },
+  {
+    label: "Asatidz & Guru",
+    value: 34,
+    suffix: "",
+    description: "Hafidz/ah, sarjana diniyah & umum",
+  },
   { label: "Alumni", value: 39, suffix: "", description: "Lulusan 3 angkatan" },
   { label: "Santri Hafidz/ah", value: 47, suffix: "", description: "Selesai Hafalan 30Juz" },
 ];
@@ -171,8 +181,20 @@ export const programs: Program[] = [
     description:
       "Santri mendapatkan pembinaan bacaan Al-Qur'an melalui tahsin, talaqqi, dan bimbingan pembimbing yang memiliki sanad, sehingga proses menghafal dibangun di atas bacaan yang benar.",
     duration: "6 tahun selama mondok",
-    benefits: ["Makharijul huruf", "Tajwid", "Tahsin bacaan", "Talaqqi", "Kelancaran dan ketepatan tilawah"],
-    activities: ["Talaqqi Al-Qur’an", "Setoran bacaan", "Latihan tilawah", "Perbaikan tajwid & makhari", "Evaluasi bacaan berkala"],
+    benefits: [
+      "Makharijul huruf",
+      "Tajwid",
+      "Tahsin bacaan",
+      "Talaqqi",
+      "Kelancaran dan ketepatan tilawah",
+    ],
+    activities: [
+      "Talaqqi Al-Qur’an",
+      "Setoran bacaan",
+      "Latihan tilawah",
+      "Perbaikan tajwid & makhari",
+      "Evaluasi bacaan berkala",
+    ],
     image: mosqueImg,
     icon: "Mosque",
   },
@@ -183,8 +205,23 @@ export const programs: Program[] = [
     description:
       "Pembelajaran diniyah menjadi bagian penting dari pendidikan pesantren untuk membangun pemahaman agama yang benar sekaligus membimbing santri dalam ibadah dan kehidupan sehari-hari.",
     duration: "3 tahun per jenjang",
-    benefits: ["Aqidah", "Fikih", "Tafsir", "Hadits", "Akhlak dan adab", "Nahwu dan sharaf", "Kitab-kitab diniyah", "Mutun ilmiah"],
-    activities: ["Pembelajaran kitab", "Kajian rutin", "Hafalan matan", "Pembahasan materi", "Praktik ibadah"],
+    benefits: [
+      "Aqidah",
+      "Fikih",
+      "Tafsir",
+      "Hadits",
+      "Akhlak dan adab",
+      "Nahwu dan sharaf",
+      "Kitab-kitab diniyah",
+      "Mutun ilmiah",
+    ],
+    activities: [
+      "Pembelajaran kitab",
+      "Kajian rutin",
+      "Hafalan matan",
+      "Pembahasan materi",
+      "Praktik ibadah",
+    ],
     image: diniyahImg,
     icon: "GraduationCap",
   },
@@ -195,8 +232,19 @@ export const programs: Program[] = [
     description:
       "Pendidikan umum dilaksanakan secara terpadu dengan program kepesantrenan agar santri memiliki bekal akademik sekaligus tetap mendapatkan pembinaan Al-Qur'an dan ilmu agama.",
     duration: "Sepanjang masa studi",
-    benefits: ["Pendidikan umum", "Literasi dan pengetahuan", "Pembelajaran kesetaraan", "Evaluasi pembelajaran", "Persiapan melanjutkan pendidikan"],
-    activities: ["Mufradat malam", "Muhadharah tiga bahasa", "English & Arabic Club", "Language camp semesteran"],
+    benefits: [
+      "Pendidikan umum",
+      "Literasi dan pengetahuan",
+      "Pembelajaran kesetaraan",
+      "Evaluasi pembelajaran",
+      "Persiapan melanjutkan pendidikan",
+    ],
+    activities: [
+      "Mufradat malam",
+      "Muhadharah tiga bahasa",
+      "English & Arabic Club",
+      "Language camp semesteran",
+    ],
     image: classroomImg,
     icon: "BookText",
   },
@@ -207,8 +255,20 @@ export const programs: Program[] = [
     description:
       "Bahasa Arab dan Inggris dikembangkan melalui pembiasaan dalam kegiatan pesantren sesuai waktu dan program yang ditentukan.",
     duration: "Program tahunan berjenjang",
-    benefits: ["Mufradat harian", "Percakapan bahasa", "Pembiasaan bahasa Arab", "Pembiasaan bahasa Inggris", "Pengembangan kemampuan komunikasi"],
-    activities: ["Ilqo' mufradat", "Percakapan harian", "Praktik bahasa", "Kegiatan kebahasaan", "Pembiasaan dalam lingkungan pesantren"],
+    benefits: [
+      "Mufradat harian",
+      "Percakapan bahasa",
+      "Pembiasaan bahasa Arab",
+      "Pembiasaan bahasa Inggris",
+      "Pengembangan kemampuan komunikasi",
+    ],
+    activities: [
+      "Ilqo' mufradat",
+      "Percakapan harian",
+      "Praktik bahasa",
+      "Kegiatan kebahasaan",
+      "Pembiasaan dalam lingkungan pesantren",
+    ],
     image: ingImg,
     icon: "Languages",
   },
@@ -219,8 +279,22 @@ export const programs: Program[] = [
     description:
       "Pendidikan pesantren tidak hanya berorientasi pada hafalan dan ilmu, tetapi juga membentuk kebiasaan dan karakter santri melalui kehidupan sehari-hari.",
     duration: "Setiap saat",
-    benefits: ["Adab kepada Allah", "Adab kepada Al-Qur'an", "Adab kepada orang tua dan guru", "Kedisiplinan", "Kemandirian", "Tanggung jawab", "Khidmah"],
-    activities: ["Pembinaan harian", "Kegiatan kebersihan", "Pembiasaan ibadah", "Kegiatan bersama", "Pengabdian"],
+    benefits: [
+      "Adab kepada Allah",
+      "Adab kepada Al-Qur'an",
+      "Adab kepada orang tua dan guru",
+      "Kedisiplinan",
+      "Kemandirian",
+      "Tanggung jawab",
+      "Khidmah",
+    ],
+    activities: [
+      "Pembinaan harian",
+      "Kegiatan kebersihan",
+      "Pembiasaan ibadah",
+      "Kegiatan bersama",
+      "Pengabdian",
+    ],
     image: sportsImg,
     icon: "Trophy",
   },
@@ -230,12 +304,14 @@ export const facilities: Facility[] = [
   {
     name: "Masjid Nurul Huda",
     description: "Pusat ibadah, tahfizh, kajian, dan pembinaan santri serta masyarakat.",
-    detail: "Nyaman untuk ibadah dan kegiatan keislaman, menjadi bagian penting dari kehidupan pendidikan santri di PPTQ Nurul Huda.",
+    detail:
+      "Nyaman untuk ibadah dan kegiatan keislaman, menjadi bagian penting dari kehidupan pendidikan santri di PPTQ Nurul Huda.",
     image: mosqueImg,
   },
   {
     name: "Perpustakaan",
-    description: "Koleksi kitab dan buku referensi untuk menunjang tahfizh, diniyah, dan pembelajaran santri.",
+    description:
+      "Koleksi kitab dan buku referensi untuk menunjang tahfizh, diniyah, dan pembelajaran santri.",
     detail: "Ruang baca • Kitab • Buku pelajaran • Referensi",
     image: libraryImg,
   },
@@ -247,13 +323,16 @@ export const facilities: Facility[] = [
   },
   {
     name: "Ruang Kelas",
-    description: "Ruang pembelajaran yang digunakan untuk kegiatan akademik, diniyah, dan kajian kitab dalam suasana yang sederhana dan kondusif.",
-    detail: "Dilengkapi Meja belajar sederhana • Papan tulis • Ruang belajar yang tertib dan nyaman",
+    description:
+      "Ruang pembelajaran yang digunakan untuk kegiatan akademik, diniyah, dan kajian kitab dalam suasana yang sederhana dan kondusif.",
+    detail:
+      "Dilengkapi Meja belajar sederhana • Papan tulis • Ruang belajar yang tertib dan nyaman",
     image: classroomImg,
   },
   {
     name: "Perangkat Komputer",
-    description: "Perangkat laptop yang digunakan untuk mendukung pembelajaran teknologi dan keterampilan digital santri.",
+    description:
+      "Perangkat laptop yang digunakan untuk mendukung pembelajaran teknologi dan keterampilan digital santri.",
     detail: "Laptop • Pembelajaran komputer • Literasi digital",
     image: computerLabImg,
   },
@@ -265,7 +344,8 @@ export const facilities: Facility[] = [
   },
   {
     name: "Dapur & Ruang Makan",
-    description: "Dapur pesantren yang mendukung penyediaan makanan santri secara teratur dan sesuai kebutuhan.",
+    description:
+      "Dapur pesantren yang mendukung penyediaan makanan santri secara teratur dan sesuai kebutuhan.",
     detail: "Menu terjadwal • Dapur higienis • MBG • Disesuaikan dengan kondisi pesantren",
     image: diningImg,
   },
@@ -502,7 +582,13 @@ export const partners = [
 export const gallery: GalleryItem[] = [
   { title: "Halaqah Tahfizh", category: "Kegiatan", image: tahfidzImg, type: "photo" },
   { title: "Masjid Pesantren", category: "Fasilitas", image: mosqueImg, type: "photo" },
-  { title: "Wisuda Tahfidz Angkatan XII", category: "Prestasi", image: news1, type: "video", videoUrl: "https://www.instagram.com/reel/DatfSsdBWZB/", },
+  {
+    title: "Wisuda Tahfidz Angkatan XII",
+    category: "Prestasi",
+    image: news1,
+    type: "video",
+    videoUrl: "https://www.instagram.com/reel/DatfSsdBWZB/",
+  },
   { title: "Kamar Asrama Santri", category: "Asrama", image: dormitoryImg, type: "photo" },
   { title: "Prestasi Santri", category: "Prestasi", image: prestasiImg, type: "photo" },
   { title: "Kegiatan Silat Santri", category: "Kegiatan", image: tapaksuci, type: "photo" },
@@ -529,21 +615,74 @@ export const gallery: GalleryItem[] = [
 ];
 
 export const timeline: TimelineEntry[] = [
-  { year: "1998", title: "Majelis Tahfidz Pertama", description: "Dimulai dari majelis kecil 12 santri di serambi masjid kampung." },
-  { year: "2003", title: "Asrama Putra Berdiri", description: "Pembangunan asrama pertama menandai lahirnya sistem pesantren berasrama." },
-  { year: "2009", title: "Pendirian Jenjang SMP", description: "Kurikulum nasional resmi berpadu dengan program tahfidz harian." },
-  { year: "2014", title: "Asrama Putri & Jenjang SMA", description: "Layanan pendidikan meluas untuk santri putri dan jenjang menengah atas." },
-  { year: "2019", title: "Akreditasi A", description: "Kedua jenjang memperoleh akreditasi A dari BAN-S/M." },
-  { year: "2024", title: "Kampus Terpadu", description: "Peresmian masjid baru, laboratorium, dan perpustakaan digital." },
+  {
+    year: "1998",
+    title: "Majelis Tahfidz Pertama",
+    description: "Dimulai dari majelis kecil 12 santri di serambi masjid kampung.",
+  },
+  {
+    year: "2003",
+    title: "Asrama Putra Berdiri",
+    description: "Pembangunan asrama pertama menandai lahirnya sistem pesantren berasrama.",
+  },
+  {
+    year: "2009",
+    title: "Pendirian Jenjang SMP",
+    description: "Kurikulum nasional resmi berpadu dengan program tahfidz harian.",
+  },
+  {
+    year: "2014",
+    title: "Asrama Putri & Jenjang SMA",
+    description: "Layanan pendidikan meluas untuk santri putri dan jenjang menengah atas.",
+  },
+  {
+    year: "2019",
+    title: "Akreditasi A",
+    description: "Kedua jenjang memperoleh akreditasi A dari BAN-S/M.",
+  },
+  {
+    year: "2024",
+    title: "Kampus Terpadu",
+    description: "Peresmian masjid baru, laboratorium, dan perpustakaan digital.",
+  },
 ];
 
 export const coreValues = [
-  { icon: "BookOpenText", title: "Qur'ani", description: "Menjadikan Al-Qur’an sebagai pedoman dalam hafalan, ibadah, akhlak, dan kehidupan sehari-hari." },
-  { icon: "Sparkles", title: "Berakhlak", description: "Membiasakan adab Islami dalam hubungan dengan Allah, guru, orang tua, sesama, dan lingkungan." },
-  { icon: "ShieldCheck", title: "Ikhlas", description: "Belajar, menghafal, beribadah, dan berkhidmah semata-mata mengharap ridha Allah." },
-  { icon: "Users", title: "Disiplin", description: "Menjalani waktu, ibadah, hafalan, belajar, dan tanggung jawab dengan tertib dan konsisten." },
-  { icon: "Compass", title: "Mandiri", description: "Membentuk santri yang mampu mengelola diri, menyelesaikan tanggung jawab, dan mengambil peran positif." },
-  { icon: "Lightbulb", title: "Berkemajuan", description: "Membekali santri dengan ilmu, bahasa, wawasan, dan keterampilan agar siap melanjutkan pendidikan dan berkontribusi di masyarakat." },
+  {
+    icon: "BookOpenText",
+    title: "Qur'ani",
+    description:
+      "Menjadikan Al-Qur’an sebagai pedoman dalam hafalan, ibadah, akhlak, dan kehidupan sehari-hari.",
+  },
+  {
+    icon: "Sparkles",
+    title: "Berakhlak",
+    description:
+      "Membiasakan adab Islami dalam hubungan dengan Allah, guru, orang tua, sesama, dan lingkungan.",
+  },
+  {
+    icon: "ShieldCheck",
+    title: "Ikhlas",
+    description: "Belajar, menghafal, beribadah, dan berkhidmah semata-mata mengharap ridha Allah.",
+  },
+  {
+    icon: "Users",
+    title: "Disiplin",
+    description:
+      "Menjalani waktu, ibadah, hafalan, belajar, dan tanggung jawab dengan tertib dan konsisten.",
+  },
+  {
+    icon: "Compass",
+    title: "Mandiri",
+    description:
+      "Membentuk santri yang mampu mengelola diri, menyelesaikan tanggung jawab, dan mengambil peran positif.",
+  },
+  {
+    icon: "Lightbulb",
+    title: "Berkemajuan",
+    description:
+      "Membekali santri dengan ilmu, bahasa, wawasan, dan keterampilan agar siap melanjutkan pendidikan dan berkontribusi di masyarakat.",
+  },
 ];
 
 export const missions = [
@@ -572,12 +711,39 @@ export const orgStructure = [
 ];
 
 export const admissionSteps = [
-  { step: "01", title: "Pendaftaran Online", description: "Mengisi formulir pendaftaran secara online melalui kanal resmi PSB." },
-  { step: "02", title: "Mengenal Calon Santri", description: "Wali santri memberikan informasi tentang kesehatan, karakter, kebiasaan, kemampuan, dan kesiapan anak mengikuti kehidupan di pesantren." },
-  { step: "03", title: "Verifikasi & Klarifikasi", description: "Panitia memeriksa data dan mengklarifikasi informasi yang perlu diperjelas." },
-  { step: "04", title: "Seleksi & Wawancara", description: "Seleksi meliputi tilawah, tahfizh, tsaqafah, serta wawancara calon santri dan wali." },
-  { step: "05", title: "Pengumuman Hasil Seleksi", description: "Hasil seleksi disampaikan melalui kanal informasi resmi PSB." },
-  { step: "06", title: "Daftar Ulang & Ta'aruf", description: "Santri yang diterima melakukan daftar ulang dan mengikuti ta'aruf serta pengenalan kehidupan pesantren." },
+  {
+    step: "01",
+    title: "Pendaftaran Online",
+    description: "Mengisi formulir pendaftaran secara online melalui kanal resmi PSB.",
+  },
+  {
+    step: "02",
+    title: "Mengenal Calon Santri",
+    description:
+      "Wali santri memberikan informasi tentang kesehatan, karakter, kebiasaan, kemampuan, dan kesiapan anak mengikuti kehidupan di pesantren.",
+  },
+  {
+    step: "03",
+    title: "Verifikasi & Klarifikasi",
+    description: "Panitia memeriksa data dan mengklarifikasi informasi yang perlu diperjelas.",
+  },
+  {
+    step: "04",
+    title: "Seleksi & Wawancara",
+    description:
+      "Seleksi meliputi tilawah, tahfizh, tsaqafah, serta wawancara calon santri dan wali.",
+  },
+  {
+    step: "05",
+    title: "Pengumuman Hasil Seleksi",
+    description: "Hasil seleksi disampaikan melalui kanal informasi resmi PSB.",
+  },
+  {
+    step: "06",
+    title: "Daftar Ulang & Ta'aruf",
+    description:
+      "Santri yang diterima melakukan daftar ulang dan mengikuti ta'aruf serta pengenalan kehidupan pesantren.",
+  },
 ];
 
 export const requirements = [
@@ -591,15 +757,32 @@ export const requirements = [
 
 export const admissionSchedule = [
   { phase: "Periode I", period: "1 Sep – 31 Des 2026", note: "" },
-  { phase: "Pendaftaran Tambahan", period: "Pendaftaran Tambahan Setelah masa pendaftaran berakhir, pendaftaran masih dapat dipertimbangkan secara terbatas apabila kuota santri masih tersedia.", note: "" },
+  {
+    phase: "Pendaftaran Tambahan",
+    period:
+      "Pendaftaran Tambahan Setelah masa pendaftaran berakhir, pendaftaran masih dapat dipertimbangkan secara terbatas apabila kuota santri masih tersedia.",
+    note: "",
+  },
   // { phase: "Gelombang III", period: "1 Mar – 30 Apr 2027", test: "10 Mei 2027", note: "Kuota terbatas" },
 ];
 
 export const fees = [
   { item: "Biaya pendaftaran", amount: "Rp200.000", note: "Dibayar satu kali saat mendaftar" },
-  { item: "Daftar Masuk", amount: "Rp5.500.000", note: "Wakaf bangunan, SPP bulan Juli, perlengkapan tidur, tempat menyimpan pakaian dan barang, buku pelajaran 1 semester, dan seragam" },
-  { item: "SPP bulanan", amount: "Min. Rp500.000/bulan", note: "Pembayaran biaya pendidikan bulanan, makan 3x sehari, dll" },
-  { item: "Kitab", amount: "±Rp300.000/semester", note: "Kebutuhan kitab pembelajaran harian santri per-semester" },
+  {
+    item: "Daftar Masuk",
+    amount: "Rp5.500.000",
+    note: "Wakaf bangunan, SPP bulan Juli, perlengkapan tidur, tempat menyimpan pakaian dan barang, buku pelajaran 1 semester, dan seragam",
+  },
+  {
+    item: "SPP bulanan",
+    amount: "Min. Rp500.000/bulan",
+    note: "Pembayaran biaya pendidikan bulanan, makan 3x sehari, dll",
+  },
+  {
+    item: "Kitab",
+    amount: "±Rp300.000/semester",
+    note: "Kebutuhan kitab pembelajaran harian santri per-semester",
+  },
 ];
 
 export const faqs: Faq[] = [
