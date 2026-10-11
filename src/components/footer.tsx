@@ -10,6 +10,7 @@ const quickLinks = [
   { label: "Fasilitas", to: "/facilities" },
   { label: "Berita", to: "/news" },
   { label: "Galeri", to: "/gallery" },
+  { label: "Progres Santri", to: "/teachers" },
   { label: "Penerimaan Santri", to: "/admissions" },
 ];
 
