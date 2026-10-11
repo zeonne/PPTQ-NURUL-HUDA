@@ -96,7 +96,7 @@ export const navItems: NavItem[] = [
       {
         label: "Progres Santri",
         to: "/teachers",
-        description: "Pantau perkembangan dan layanan digital santri",
+        description: "Pantau perkembangan santri",
       },
     ],
   },

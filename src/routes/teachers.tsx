@@ -139,7 +139,10 @@ function StudentProgressPage() {
             <div className="flex items-center gap-2 text-sm font-medium text-primary">
               <span>Butuh bantuan?</span>
 
-              <a className="inline-flex items-center gap-1 hover:underline" href="/contact">
+              <a
+                className="inline-flex items-center gap-2 rounded-full bg-primary-soft px-4 py-2 font-semibold text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+                href="/contact"
+              >
                 Hubungi kami
                 <ArrowRight className="size-4" aria-hidden="true" />
               </a>
