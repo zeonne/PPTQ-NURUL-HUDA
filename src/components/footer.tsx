@@ -65,12 +65,7 @@ export function Footer() {
                 rel="noreferrer"
                 className="grid size-11 place-items-center rounded-2xl border border-white/15 transition-colors hover:border-gold hover:text-gold"
               >
-                <svg
-                  viewBox="0 0 24 24"
-                  className="size-5"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
+                <svg viewBox="0 0 24 24" className="size-5" fill="currentColor" aria-hidden="true">
                   <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.4V2h-3.35v13.67a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6.03.87.12V9.5a6.27 6.27 0 1 0 5.38 6.2V8.43a8.17 8.17 0 0 0 4.77 1.52V6.6c-.34 0-.67.03-1 .09Z" />
                 </svg>
               </a>
@@ -78,7 +73,7 @@ export function Footer() {
           </ul>
         </div>
 
-        {/* <nav aria-label="Tautan cepat">
+        <nav aria-label="Tautan cepat">
           <h2 className="font-display text-sm font-semibold tracking-wide text-gold uppercase">
             Tautan Cepat
           </h2>
@@ -94,9 +89,9 @@ export function Footer() {
               </li>
             ))}
           </ul>
-        </nav> */}
+        </nav>
 
-        <nav aria-label="Program pesantren">
+        {/* <nav aria-label="Program pesantren">
           <h2 className="font-display text-sm font-semibold tracking-wide text-gold uppercase">
             Program
           </h2>
@@ -112,7 +107,7 @@ export function Footer() {
               </li>
             ))}
           </ul>
-        </nav>
+        </nav> */}
 
         <nav aria-label="Marifa Group">
           <h2 className="font-display text-sm font-semibold tracking-wide text-gold uppercase">
@@ -148,26 +143,26 @@ export function Footer() {
 
           <div className="mt-5">
             {/* <div className="flex items-center gap-3"> */}
-              {/* <div className="flex h-12 w-12 items-center justify-center rounded-full border border-gold/30">
+            {/* <div className="flex h-12 w-12 items-center justify-center rounded-full border border-gold/30">
                 <span className="text-xl text-gold">M</span>
               </div> */}
 
-              <div>
-                <p className="mt-5 space-y-4 text-sm text-primary-foreground/75">
-                  <a
-                    href="https://www.marifa.id"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="transition-colors hover:text-gold"
-                  >
-                    Marifa® Group
-                  </a>
-                </p>
+            <div>
+              <p className="mt-5 space-y-4 text-sm text-primary-foreground/75">
+                <a
+                  href="https://www.marifa.id"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors hover:text-gold"
+                >
+                  Marifa® Group
+                </a>
+              </p>
 
-                {/* <p className="mt-1 text-xs text-primary-foreground/60">
+              {/* <p className="mt-1 text-xs text-primary-foreground/60">
                   Kontraktor • Arsitek • Interior • Developer
                 </p> */}
-              </div>
+            </div>
             {/* </div> */}
 
             {/* <a
