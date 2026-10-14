@@ -74,7 +74,13 @@ function StudentProgressPage() {
           Layanan digital untuk wali santri
         </h2>
 
-        <ul className="mt-14 grid gap-6 md:grid-cols-2">
+        <ul
+          className={`mt-14 grid gap-6 ${
+            studentServices.length === 1
+              ? "mx-auto max-w-2xl grid-cols-1"
+              : "grid-cols-1 md:grid-cols-2"
+          }`}
+        >
           {studentServices.map((service, index) => {
             const Icon = service.icon;
 
