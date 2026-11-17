@@ -524,7 +524,7 @@ export const events: EventItem[] = [
     place: "Kelas Masing2",
   },
   {
-    title: "Tes penerimaan santri baru",
+    title: "Tes penerimaan santri baru 2027/2028",
     date: "2026-12-13",
     day: "13",
     month: "Dec",
