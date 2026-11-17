@@ -580,7 +580,7 @@ export const partners = [
 ];
 
 export const gallery: GalleryItem[] = [
-  { title: "Kemah Santri", category: "Kegiatan", image: tahfidzImg, type: "photo" },
+  // { title: "Kemah Santri", category: "Kegiatan", image: tahfidzImg, type: "photo" },
   { title: "Halaqah Tahfizh", category: "Kegiatan", image: tahfidzImg, type: "photo" },
   { title: "Masjid Pesantren", category: "Fasilitas", image: mosqueImg, type: "photo" },
   {
