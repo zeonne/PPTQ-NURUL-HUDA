@@ -516,36 +516,36 @@ export const news: NewsItem[] = [
 
 export const events: EventItem[] = [
   {
-    title: "Pendaftaran Santri Baru 2027/2028",
-    date: "2026-09-01",
-    day: "01",
-    month: "Sep",
-    time: "08.00 WIB - Selesai",
-    place: "Daring & Kantor PSB",
+    title: "Ujian Tahfidz dan UAS tulis, lisan dan praktik",
+    date: "2026-11-30",
+    day: "30",
+    month: "Nov",
+    time: "09.00 WIB - Selesai",
+    place: "Kelas Masing2",
   },
   {
-    title: "Outing Class",
-    date: "2026-09-21",
-    day: "21",
-    month: "Sep",
+    title: "Tes penerimaan santri baru",
+    date: "2026-12-13",
+    day: "13",
+    month: "Dec",
     time: "07.00 – Selesai",
     place: "Tempat Kegiatan",
   },
   {
-    title: "Kegiatan Peringatan Hari G30 S-PKI",
-    date: "2026-09-30",
-    day: "05",
-    month: "Sep",
+    title: "Perpulangan santri putra dan putri",
+    date: "2026-12-19",
+    day: "19",
+    month: "Dec",
     time: "07.00 – Selesai",
     place: "Aula Pondok",
   },
   {
-    title: "Ujian Tengah Semester",
-    date: "2026-10-01",
-    day: "01",
-    month: "Okt",
-    time: "09.00 – 14.00 WIB",
-    place: "Kelas Masing2",
+    title: "Kedatangan santri dari liburan",
+    date: "2027-1-05",
+    day: "05",
+    month: "Jan",
+    time: "14.00 – 15.00 WIB",
+    place: "Pondok Pesantren Nurul Huda",
   },
 ];
 
@@ -580,6 +580,7 @@ export const partners = [
 ];
 
 export const gallery: GalleryItem[] = [
+  { title: "Kemah Santri", category: "Kegiatan", image: tahfidzImg, type: "photo" },
   { title: "Halaqah Tahfizh", category: "Kegiatan", image: tahfidzImg, type: "photo" },
   { title: "Masjid Pesantren", category: "Fasilitas", image: mosqueImg, type: "photo" },
   {
@@ -611,7 +612,7 @@ export const gallery: GalleryItem[] = [
     type: "photo",
     // videoUrl: "https://www.youtube.com/embed/aqz-KE-bpKQ",
   },
-  { title: "Ruang Makan Santri", category: "Fasilitas", image: diningImg, type: "photo" },
+  // { title: "Ruang Makan Santri", category: "Fasilitas", image: diningImg, type: "photo" },
 ];
 
 export const timeline: TimelineEntry[] = [
